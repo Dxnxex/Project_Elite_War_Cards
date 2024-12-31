@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_events_draw_all",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_events_draw_all",
+  "parent":{
+    "name":"Events",
+    "path":"folders/Scripts/Events.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

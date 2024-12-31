@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_printscreen_pdf_z",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_printscreen_pdf_z",
+  "parent":{
+    "name":"Print",
+    "path":"folders/Scripts/Print.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

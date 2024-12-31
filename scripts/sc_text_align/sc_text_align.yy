@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_text_align",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_text_align",
+  "parent":{
+    "name":"GM_Custom",
+    "path":"folders/Scripts/GM_Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

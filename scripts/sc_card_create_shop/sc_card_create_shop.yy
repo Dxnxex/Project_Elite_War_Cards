@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_create_shop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_create_shop",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Scripts/Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

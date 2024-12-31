@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scSurfaceScreenshotSecureMission",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scSurfaceScreenshotSecureMission",
+  "parent":{
+    "name":"GM_Custom",
+    "path":"folders/Scripts/GM_Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

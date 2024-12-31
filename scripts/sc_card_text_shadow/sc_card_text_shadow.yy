@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_text_shadow",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_text_shadow",
+  "parent":{
+    "name":"Custom",
+    "path":"folders/Scripts/Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

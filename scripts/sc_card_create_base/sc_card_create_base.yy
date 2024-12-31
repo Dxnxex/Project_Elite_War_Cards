@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_create_base",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_create_base",
+  "parent":{
+    "name":"cardBase",
+    "path":"folders/Scripts/cardBase.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

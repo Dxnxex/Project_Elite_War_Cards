@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_cirle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_cirle",
+  "parent":{
+    "name":"Techniques",
+    "path":"folders/Scripts/Techniques.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

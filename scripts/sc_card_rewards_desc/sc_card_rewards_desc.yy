@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_rewards_desc",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_rewards_desc",
+  "parent":{
+    "name":"Rewards",
+    "path":"folders/Scripts/Rewards.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

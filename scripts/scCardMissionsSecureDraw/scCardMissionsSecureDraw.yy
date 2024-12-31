@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scCardMissionsSecureDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scCardMissionsSecureDraw",
+  "parent":{
+    "name":"Mission",
+    "path":"folders/Scripts/Mission.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_end_mission",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_end_mission",
+  "parent":{
+    "name":"Mission",
+    "path":"folders/Scripts/Mission.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_rules_draw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_rules_draw",
+  "parent":{
+    "name":"Rules",
+    "path":"folders/Scripts/Rules.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

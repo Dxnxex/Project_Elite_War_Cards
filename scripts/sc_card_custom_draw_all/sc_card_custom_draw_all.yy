@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_card_custom_draw_all",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_card_custom_draw_all",
+  "parent":{
+    "name":"Custom",
+    "path":"folders/Scripts/Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

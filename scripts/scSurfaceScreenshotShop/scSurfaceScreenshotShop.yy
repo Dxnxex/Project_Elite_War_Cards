@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scSurfaceScreenshotShop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scSurfaceScreenshotShop",
+  "parent":{
+    "name":"GM_Custom",
+    "path":"folders/Scripts/GM_Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
