@@ -15,8 +15,6 @@ if screenshot_start == 4 {show_debug_message(string("Start #4 - Techniques | "))
 if screenshot_start == 5 {show_debug_message(string("Start #5 - Events | "));				sc_screen_save_surface();screenshot_start++;};
 if screenshot_start == 6 {show_debug_message("END");screenshot_start=-1;};
 
-
-
 			//-----END-----
 			if screenshot_start == -1 {screenshot_start=0;
 				
