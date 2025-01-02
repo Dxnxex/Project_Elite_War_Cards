@@ -3,7 +3,7 @@ function sc_screenshot_page(){
 
 if screenshot_start_ALL == 1 && PDFReady == 0 { 
 
-CardNumber = 3;
+CardNumber = 4;
 
 
 if CardNumber == 3 {screenshot_start = 4;}

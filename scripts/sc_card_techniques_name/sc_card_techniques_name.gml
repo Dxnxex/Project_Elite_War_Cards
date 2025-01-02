@@ -25,11 +25,11 @@ cardTechniqueOverlay[ctn] = 0;
 	
 	switch(argument0) {
 	
-		case "Úder":			cardTechniqueOverlay[ctn]=2; break;
-		case "Kop":				cardTechniqueOverlay[ctn]=2; break;
-		case "Pohyb":			cardTechniqueOverlay[ctn]=2; break;
-		case "Obrana":			cardTechniqueOverlay[ctn]=2; break;
-		case "Přečkání akce":	cardTechniqueOverlay[ctn]=2; break;
+		case "Úder":				cardTechniqueOverlay[ctn]=2; break;
+		case "Kop":					cardTechniqueOverlay[ctn]=2; break;
+		case "Pohyb":				cardTechniqueOverlay[ctn]=2; break;
+		case "Obrana":				cardTechniqueOverlay[ctn]=2; break;
+		case "Odpočinek & Risk":	cardTechniqueOverlay[ctn]=2; break;
 
 				
 	}	

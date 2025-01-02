@@ -3,7 +3,7 @@ sc_camera();
 
 globalvar CardWidth,CardHeight,ScreenshotW,ScreenshotH;
 
-globalvar _xx_scale; _xx_scale = 1;;
+globalvar _xx_scale; _xx_scale = 1;
 
 var _A4Coeff = 3508/2480;
 var _SpriteW = 1380;
@@ -24,7 +24,7 @@ globalvar CardWidth;CardWidth = 5594;
 globalvar CardHeight;CardHeight = 7913;
 
 //TEST
-globalvar CardNumber;CardNumber = 3;
+globalvar CardNumber;CardNumber = 4;
 
 
 globalvar ScreenshotFormat;	ScreenshotFormat = "png";
@@ -69,3 +69,34 @@ ascale = 0.55;				//Arrow scale
 
 //Specific variables
 event_red = make_color_rgb(204,0,51);
+
+
+//-----Generate JSON-----
+var file = "Generate.ini";
+file_delete(file);
+
+ini_open(file);
+
+randomize();
+for(var i=0;i<=ctnMaxAll;i++) {
+	for(var p=1;p<=4;p++) {
+	
+		var add = 1;
+		if CardTechniquesAtributteText[p,i] == "Spotřeba" || CardTechniquesAtributteText[p,i] == "Obnovení" {add=-1};
+	
+		if CardTechniquesAtributteText[p,i] != "" {
+			
+			var Max = max(0,CardTechniquesAtributteValue[p,i]+2*add);
+			
+			
+			//Pevná délka
+			var txt = CardTechniquesAtributteText[p,i];
+			while (string_length(txt)<=20) {txt+=" ";}
+				
+			ini_write_string(cardTechniquesName[i],txt,+string(CardTechniquesAtributteValue[p,i])+string(" -> ")+string(Max));
+		}
+	
+	};
+};
+
+ini_close();

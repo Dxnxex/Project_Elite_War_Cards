@@ -64,12 +64,3 @@ if Element == 4 {ElementTXT = "Wind"}
 
 //Circle SETUP
 if mouse_check_button(mb_right) {circle = 4} else {circle=0};
-
-/*
-if mouse_wheel_up() && card_shop_number!=card_shop_numberMax {card_shop_number++};
-if mouse_wheel_down() && card_shop_number!=0 {card_shop_number--};
-
-if keyboard_check_direct(ord("Q")) {
-	if mouse_wheel_up() && card_shop_numberAll<=(card_shop_numberMaxAll-((CardNumber*CardNumber)-1))	{card_shop_numberAll+=(CardNumber*CardNumber);_cardback_list = card_shop_numberAll;sc_cardback_init();};
-	if mouse_wheel_down() && card_shop_numberAll!=0							{card_shop_numberAll+=(CardNumber*CardNumber);_cardback_list = card_shop_numberAll;sc_cardback_init();};
-}

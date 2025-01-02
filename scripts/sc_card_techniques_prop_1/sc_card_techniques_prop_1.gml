@@ -7,6 +7,8 @@ function sc_card_techniques_prop_1(argument0,argument1) {
 	var P = 1;
 	CardTechniquesProp_1_Token[ctn] = spr_token_nothing;
 	CardTechniquesAtributteToken[P,ctn] = spr_token_nothing;
+	CardTechniquesAtributteText[P,ctn] = string(argument0);
+	CardTechniquesAtributteValue[P,ctn] = real(argument1);
 
 	var T; T = sc_card_technique_prop_return(argument0,P);
 	if T == 0 {var B = ""; if argument1 == 1 {B="Bod"} if argument1 >= 2		{B="Body"} if argument1 >= 5		{B="Bodů"}}
