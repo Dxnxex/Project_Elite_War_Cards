@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_card_create_mission_secure",
   "parent":{
-    "name":"Mission",
-    "path":"folders/Scripts/Mission.yy",
+    "name":"Create",
+    "path":"folders/Scripts/Mission/Create.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

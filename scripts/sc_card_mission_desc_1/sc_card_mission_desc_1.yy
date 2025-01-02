@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_card_mission_desc_1",
   "parent":{
-    "name":"Mission",
-    "path":"folders/Scripts/Mission.yy",
+    "name":"Descriptions",
+    "path":"folders/Scripts/Mission/Descriptions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,12 +1,12 @@
 ///@param String
 ///@param Color
 
-
 function sc_card_text_shadow_less(argument0,argument1){
 
 
 var _xx = xx+(wsprite/2)+lengthdir_x(pos,rot+angle);
 var _yy = yy+(hsprite/2)+lengthdir_y(pos,rot+angle);
+
 var _xscale = _xx_scale;
 var _yscale = _xx_scale;
 

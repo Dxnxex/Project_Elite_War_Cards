@@ -1,0 +1,94 @@
+///@param imageNumber
+///@param x
+///@param y
+function BasicCardMissionDraw(argument0,argument1,argument2){
+	
+		//-----Setting up arguments-----
+		var i = argument0;
+		var xx = argument1;
+		var yy = argument2;
+
+		//-----Scale variables-----
+		var Radius = 165*_xx_scale;
+		var ImageScale = (((wsprite-Radius*2)/sprite_get_width(CardMissionBasic_Image))*iscale);
+			
+
+			//-----Cardback-----
+			_cardback_type = "Basic";	
+		
+			//-----OBRÁZEK-----
+			sc_text_lengdir(380,90); draw_sprite_ext(CardBasic_ImageOut[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),ImageScale,ImageScale,rot,c_white,1);
+
+			//------CARD Layout-----
+			draw_sprite_ext(sprite,0,xx+(wsprite/2)+lengthdir_x(0,0),yy+(hsprite/2)+lengthdir_y(0,0),_xx_scale,_xx_scale,rot,c_white,1);
+	
+			//-----Název karty-----
+			sc_font(fo_mission_name); sc_text_lengdir(796.50,-269.89); sc_text_align(fa_middle,fa_center); sc_card_text_shadow_less(string_upper(CardMissionBasic_Name[i]),c_black);
+	
+	
+			#region MISE (TOKEN & POPIS)
+		
+				sc_text_size_width(50,1250);
+		
+
+				//-----MISE TOKEN-----
+				sc_text_lengdir(521.52,-179.51);
+				if CardMissionBasic_DescType[i] !=2 {draw_sprite_ext(CardMissionBasic_TextMainTokenElement[i,Element],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);} else 
+				{draw_sprite_ext(CardMissionBasic_TextMainToken[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);}
+				sc_cirle();	
+
+
+				//-----MISE POPIS-----
+				sc_font(fo_mission_desc);	sc_text_align(fa_middle,fa_center);		sc_text_lengdir(6.52,-85.60);
+				sc_card_text_shadow_less(CardMissionBasic_DescCity[i],c_black);
+	
+			#endregion	
+	
+			//----TEXT - REUNY-----
+			sc_font(fo_mission_desc);	sc_text_align(fa_middle,fa_center);	sc_text_lengdir(163.54,-88.77);
+			sc_card_text_shadow_less(CardMissionBasic_Desc_1[i],c_black);	
+			sc_cirle();
+		
+			//-----TOKEN LEFT-----
+			sc_text_lengdir(530.64,-161.94);
+			draw_sprite_ext(CardMissionBasic_6_Token_1[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			sc_cirle();	
+		
+			//-----TOKEN RIGHT-----
+			sc_text_lengdir(528.81,-17.44);
+			draw_sprite_ext(CardMissionBasic_6_Token_2[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			sc_cirle();		
+
+			//----Effect-----
+			sc_font(fo_mission_desc);	
+			sc_text_lengdir(240.00,-90);
+			sc_text_align(fa_top,fa_center);
+			sc_card_text_shadow_less(string(CardMissionBasic_6_Pre[i]),c_black);
+		
+			sc_font(fo_V11_card_effect);	
+			sc_text_lengdir(340.00,-90);
+			sc_text_align(fa_top,fa_center);
+			sc_card_text_shadow(string(CardMissionBasic_6_Desc[i]),c_white);
+		
+			//-----After effect-----
+			sc_font(fo_V11_card_effect);
+			sc_text_lengdir(716.56,-89.24);
+			sc_text_align(fa_top,fa_center);
+			sc_card_text_shadow_less(string(CardMissionBasic_6_Counter[i]),c_black);
+		
+
+			#region EDICE & INFO
+
+				//-----Edition-----
+				sc_font(fo_mission_info); sc_text_lengdir(967.41,-58.01);		sc_text_align(fa_middle,fa_right);
+				sc_card_text_shadow(string_upper(CardMissionBasic_Edition[i]),c_white);
+	
+				//-----Info-----
+				sc_font(fo_mission_info); sc_text_lengdir(961.29,-121.52);		sc_text_align(fa_middle,fa_left);
+				sc_card_text_shadow(string_upper(CardMissionBasic_Info[i]),c_white)
+	
+			#endregion
+		
+
+
+}

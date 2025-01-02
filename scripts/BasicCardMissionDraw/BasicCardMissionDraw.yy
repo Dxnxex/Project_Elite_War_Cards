@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BasicCardMissionDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BasicCardMissionDraw",
+  "parent":{
+    "name":"Basic",
+    "path":"folders/Scripts/Mission/Missions/Basic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

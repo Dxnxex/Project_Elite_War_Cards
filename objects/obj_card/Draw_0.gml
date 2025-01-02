@@ -1,10 +1,3 @@
-
-
-if keyboard_check_pressed(ord("A")){
-screen_save_part("GodKnows."+string(ScreenshotFormat),0,0,650,1100);
-
-}
-
 //-----Screenshot-----
 if keyboard_check_pressed(ord("S")) {
 	
@@ -18,10 +11,6 @@ if keyboard_check_pressed(ord("S")) {
 screenshot_start = 2;
 screenshot_start_single = 1;
 
-directory_destroy(working_directory+string("Single/Shop"));
-directory_destroy(working_directory+string("Single/Missions"));
-directory_destroy(working_directory+string("Single/Techniques"));
-directory_destroy(working_directory+string("Single/Events"));
 directory_destroy(working_directory+string("Single"));
 
 }

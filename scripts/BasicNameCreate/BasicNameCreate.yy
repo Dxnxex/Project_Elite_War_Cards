@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_end_shop",
+  "%Name":"BasicNameCreate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_end_shop",
+  "name":"BasicNameCreate",
   "parent":{
-    "name":"Shop",
-    "path":"folders/Scripts/Shop.yy",
+    "name":"Create",
+    "path":"folders/Scripts/Card/Create.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
