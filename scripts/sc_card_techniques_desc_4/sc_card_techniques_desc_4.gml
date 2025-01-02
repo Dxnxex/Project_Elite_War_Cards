@@ -18,7 +18,7 @@ switch(argument0) {
 	case 4: _token = spriteTokenTechniqueMethodArea; break;
 	case 5: _token = spriteTokenTechniqueMethodPoint; break;
 	case 6: _token = spriteTokenTechniqueMethodPassive; break;
-	default: _token = spr_token_error; break;
+	default: _token = spriteTokenError; break;
 };
 
 cardTechniquesMethod_Token[ctn]= _token;

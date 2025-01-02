@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"BasicCardMissionDraw",
+  "%Name":"SecureCardMissionDraw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BasicCardMissionDraw",
+  "name":"SecureCardMissionDraw",
   "parent":{
     "name":"Missions",
     "path":"folders/Scripts/Mission/Missions.yy",

@@ -14,7 +14,7 @@ switch(argument0) {
 	case 0: _token = spriteTokenTechniqueUsageInstant; break;
 	case 1: _token = spriteTokenTechniqueUsageChannel; break;
 	case 2: _token = spriteTokenTechniqueUsageGuiadance; break;
-	default: _token = spr_token_error; break;
+	default: _token = spriteTokenError; break;
 };
 
 cardTechniquesUsageToken[ctn]= _token;

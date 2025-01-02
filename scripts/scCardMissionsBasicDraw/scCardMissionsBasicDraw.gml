@@ -16,8 +16,7 @@ var cardSpaceY = (CardHeight+formatBetweenH)*_xx_scale;
 xx = 0;
 yy = 0;
 
-BasicCardMissionDraw(i,xx,yy);
-
-	
+	//Draw card/s
+	BasicCardMissionDraw(i,xx,yy);
 		
 };

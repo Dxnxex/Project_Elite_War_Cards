@@ -16,7 +16,7 @@ switch(argument0) {
 	case 2: _token = spriteTokenTechniqueTypeSupport; break;
 	case 3: _token = spriteTokenTechniqueTypeWeak; break;
 	case 4: _token = spriteTokenTechniqueTypeIllusion; break;
-	default: _token = spr_token_error; break;
+	default: _token = spriteTokenError; break;
 };
 
 cardTechniquesType_Token[ctn]= _token;

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"BasicCardMissionDraw",
+  "%Name":"imageInputs",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BasicCardMissionDraw",
+  "name":"imageInputs",
   "parent":{
-    "name":"Missions",
-    "path":"folders/Scripts/Mission/Missions.yy",
+    "name":"Input",
+    "path":"folders/Scripts/Card/Input.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -18,10 +18,8 @@ yy = (cardSpaceY*argument0-hsprite)-((CardHeight*_xx_scale)*1-hsprite)/2;
 var i = (cardMissionBasicNumberAll+(argument0-1)+CardNumber*(argument1-1));
 
 
-//Draw the card/s
-if i <= cardMissionBasicNumberMaxAll {
-	BasicCardMissionDraw(i,xx,yy)
-};
+	//Draw the card/s
+	if i <= cardMissionBasicNumberMaxAll {BasicCardMissionDraw(i,xx,yy)};
 
 
 };

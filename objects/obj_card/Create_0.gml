@@ -24,7 +24,7 @@ globalvar CardWidth;CardWidth = 5594;
 globalvar CardHeight;CardHeight = 7913;
 
 //TEST
-globalvar CardNumber;CardNumber = 4;
+globalvar CardNumber;CardNumber = 3;
 
 
 globalvar ScreenshotFormat;	ScreenshotFormat = "png";
@@ -62,10 +62,10 @@ font_size = 0;
 font_width = 2000;
 
 //Other variables
-tscale = 1.2*_xx_scale;		//Token scale 
-iscale = 1.15;				//Image scale
-escale = 1.20;				//Element scale
-ascale = 0.55;				//Arrow scale
+tscale = (1.2*_xx_scale)*tokenDiff;		//Token scale 
+iscale = 1.15;							//Image scale
+escale = 1.20;							//Element scale
+ascale = 0.55;							//Arrow scale
 
 //Specific variables
 event_red = make_color_rgb(204,0,51);

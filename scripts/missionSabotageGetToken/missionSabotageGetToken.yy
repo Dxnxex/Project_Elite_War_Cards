@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_mission_main",
+  "%Name":"missionSabotageGetToken",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_mission_main",
+  "name":"missionSabotageGetToken",
   "parent":{
     "name":"Create",
     "path":"folders/Scripts/Mission/Create.yy",

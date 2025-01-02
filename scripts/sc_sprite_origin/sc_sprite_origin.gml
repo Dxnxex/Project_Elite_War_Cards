@@ -59,7 +59,7 @@ sc_sprite_origin_90(spr_token_destroy_both);
 sc_sprite_origin_90(spr_token_destroy_effect);
 sc_sprite_origin_90(spr_token_earth_large);
 sc_sprite_origin_90(spr_token_elements);
-sc_sprite_origin_90(spr_token_error);
+sc_sprite_origin_90(spriteTokenError);
 sc_sprite_origin_90(spr_token_fire_large);
 sc_sprite_origin_90(spr_token_harbor);
 sc_sprite_origin_90(spr_token_lives);

@@ -43,7 +43,7 @@ cardTechniqueOverlay[ctn] = 0;
 		case 1: _token = spriteTokenTechniquesLVL2; break;
 		case 2: _token = spriteTokenTechniquesLVL3; break;
 		case 3: _token = spriteTokenTechniquesLVL4; break;
-		default: _token = spr_token_error; break;
+		default: _token = spriteTokenError; break;
 	};
 	
 	cardTechniquesLVL[ctn]= _token;

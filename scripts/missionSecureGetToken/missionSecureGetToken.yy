@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"BasicCardMissionDraw",
+  "%Name":"missionSecureGetToken",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"BasicCardMissionDraw",
+  "name":"missionSecureGetToken",
   "parent":{
-    "name":"Missions",
-    "path":"folders/Scripts/Mission/Missions.yy",
+    "name":"Create",
+    "path":"folders/Scripts/Mission/Create.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -90,13 +90,11 @@ if screenshot_start==0 {
 //-----SINGLE-----
 if !keyboard_check_direct(vk_control){
 	
-if keyboard_check_direct(ord("W")) {scCardMissionsBasicDraw();} 
-if keyboard_check_direct(ord("E")) {scCardMissionsSecureDraw();} 
-if keyboard_check_direct(ord("R")) {scCardMissionsSabotageDraw();} 
-if keyboard_check_direct(ord("T")) {sc_card_techniques_draw();}
-if keyboard_check_direct(ord("Z")) {sc_card_events_draw();}
-
-
+	if keyboard_check_direct(ord("W")) {scCardMissionsBasicDraw();} 
+	if keyboard_check_direct(ord("E")) {scCardMissionsSecureDraw();} 
+	if keyboard_check_direct(ord("R")) {scCardMissionsSabotageDraw();} 
+	if keyboard_check_direct(ord("T")) {sc_card_techniques_draw();}
+	if keyboard_check_direct(ord("Z")) {sc_card_events_draw();}
 
 }
 

@@ -39,8 +39,8 @@ yy = 0;
 			// Option 1
 			if CardEvents_Opt1[i]!="" {
 			sc_font(fo_event_number);									sc_text_lengdir(713.96,-218.92);				sc_card_text_shadow("1",c_white);												
-			sc_font(fo_event_text);									sc_text_lengdir(648.79,-220.75);				sc_card_text_shadow(CardEvents_Opt1_Text[i],c_white);									
-			sc_font(fo_event_main);									sc_text_lengdir(614.30,-216.86);				sc_card_text_shadow(CardEvents_Opt1_Req[i],event_red);							
+			sc_font(fo_event_text);										sc_text_lengdir(648.79,-220.75);				sc_card_text_shadow(CardEvents_Opt1_Text[i],c_white);									
+			sc_font(fo_event_main);										sc_text_lengdir(614.30,-216.86);				sc_card_text_shadow(CardEvents_Opt1_Req[i],event_red);							
 			sc_font(fo_event_effect);									sc_text_lengdir(553.27,-214.77);				sc_card_text_shadow(CardEvents_Opt1[i],c_white);							
 																		sc_text_lengdir(519.85,-338.15);				draw_sprite_ext(CardEvents_Opt1_After[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),1,1,rot,c_white,1);							
 			sc_cirle();		
@@ -50,8 +50,8 @@ yy = 0;
 			// Option 2
 			if CardEvents_Opt2[i]!="" {
 			sc_font(fo_event_number);									sc_text_lengdir(561.74,-188.55);				sc_card_text_shadow("2",c_white);												
-			sc_font(fo_event_text);									sc_text_lengdir(497.57,-187.33);				sc_card_text_shadow(CardEvents_Opt2_Text[i],c_white);							
-			sc_font(fo_event_main);									sc_text_lengdir(492.66,-181.45);				sc_card_text_shadow(CardEvents_Opt2_Req[i],event_red);							
+			sc_font(fo_event_text);										sc_text_lengdir(497.57,-187.33);				sc_card_text_shadow(CardEvents_Opt2_Text[i],c_white);							
+			sc_font(fo_event_main);										sc_text_lengdir(492.66,-181.45);				sc_card_text_shadow(CardEvents_Opt2_Req[i],event_red);							
 			sc_font(fo_event_effect);									sc_text_lengdir(451.23,-174.98);				sc_card_text_shadow(CardEvents_Opt2[i],c_white);								
 																		sc_text_lengdir(509.13,-18.61);					draw_sprite_ext(CardEvents_Opt2_After[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),1,1,rot,c_white,1);																					
 			sc_cirle();
@@ -60,8 +60,8 @@ yy = 0;
 			// Option 3
 			if CardEvents_Opt3[i]!="" {
 			sc_font(fo_event_number);									sc_text_lengdir(621.85,-153.50);				sc_card_text_shadow("3",c_white);												
-			sc_font(fo_event_text);									sc_text_lengdir(579.56,-148.19);				sc_card_text_shadow(CardEvents_Opt3_Text[i],c_white);							
-			sc_font(fo_event_main);									sc_text_lengdir(616.31,-143.51);				sc_card_text_shadow(CardEvents_Opt3_Req[i],event_red);							
+			sc_font(fo_event_text);										sc_text_lengdir(579.56,-148.19);				sc_card_text_shadow(CardEvents_Opt3_Text[i],c_white);							
+			sc_font(fo_event_main);										sc_text_lengdir(616.31,-143.51);				sc_card_text_shadow(CardEvents_Opt3_Req[i],event_red);							
 			sc_font(fo_event_effect);									sc_text_lengdir(626.67,-136.36);				sc_card_text_shadow(CardEvents_Opt3[i],c_white);								
 																		sc_text_lengdir(711.83,-47.11);					draw_sprite_ext(CardEvents_Opt3_After[i],0,xx+(wsprite/2)+lengthdir_x(pos,rot+angle),yy+(hsprite/2)+lengthdir_y(pos,rot+angle),1,1,rot,c_white,1);							
 			sc_cirle();
