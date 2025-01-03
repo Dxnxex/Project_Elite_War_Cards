@@ -13,14 +13,14 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="images/Basic.png" alt="Basic" style="width: 30%;">
-  <img src="images/Secure.png" alt="Secure" style="width: 30%;">
-  <img src="images/Technique.png" alt="Technique" style="width: 30%;">
+  <img src=".gitImages/Basic.png" alt="Basic" style="width: 30%;">
+  <img src=".gitImages/Secure.png" alt="Secure" style="width: 30%;">
+  <img src=".gitImages/Technique.png" alt="Technique" style="width: 30%;">
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-  <img src="images/Page.png" alt="Page" style="width: 40%;">
-  <img src="images/CardBack.png" alt="CardBack" style="width: 40%;">
+  <img src=".gitImages/Page.png" alt="Page" style="width: 40%;">
+  <img src=".gitImages/CardBack.png" alt="CardBack" style="width: 40%;">
 </div>
 
 
