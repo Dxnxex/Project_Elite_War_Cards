@@ -19,6 +19,9 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 ![A4 Formát](images/Page.png)
 ![A4 Formát](images/CardBack.png)
 
+
+<img src="images/Basic.png" width=200 height=300>
+
 ## Poznámka
 
 Veškeré prvky zobrazené na obrázku (žetony, layout, text) jsou mé vlastní tvorby. Vnitřní obrázky byly vytvořeny pomocí umělé inteligence, kterou jsem vytrénoval na základě mých vzorů, aby splňovaly požadované specifikace.
