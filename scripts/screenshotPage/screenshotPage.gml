@@ -1,7 +1,7 @@
 function screenshotPage(){
 
 
-if screenshot_start_ALL == 1  { 
+if screenshotPageStart == 1  { 
 
 if CardNumber == 3 {screenshotNumber = 4;}
 
@@ -21,7 +21,6 @@ if screenshotNumber == 6 {show_debug_message("END");screenshotNumber=-1;};
 		};
 		
 		
-		if Screnshot_DELAY!=0 {Screnshot_DELAY--;} else {Screnshot_DELAY = Screnshot_DELAY_page_par;};
 
 }
 

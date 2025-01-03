@@ -14,7 +14,7 @@ repeat(eventMaxPages) {
 	
 				//Image
 				if i==0 {eventDrawPage();};
-				if i==1 {sc_card_cardback_draw_all(0);};
+				if i==1 {cardbackDrawPage(0);};
 
 			//Create an sprite from surface 
 			var surfaceSprite = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);

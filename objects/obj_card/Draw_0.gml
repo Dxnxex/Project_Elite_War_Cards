@@ -2,7 +2,7 @@
 if keyboard_check_pressed(keyScreenshotSingle) {
 	
 	screenshotReset();
-	screenshot_start_single = 1;
+	screenshotSingleStart = 1;
 	
 directory_destroy(working_directory+string("Single"));
 
@@ -12,7 +12,7 @@ directory_destroy(working_directory+string("Single"));
 if keyboard_check_pressed(keyScreenshotPage)  {
 	
 	screenshotReset();
-	screenshot_start_ALL = 1;
+	screenshotPageStart = 1;
 
 directory_destroy(working_directory+string("Page"));
 
@@ -22,9 +22,8 @@ directory_destroy(working_directory+string("Page"));
 
 if screenshotNumber !=0 {
 
-screenshotSingle();
-screenshotPage();
-
+	screenshotSingle();
+	screenshotPage();
 
 }
 
@@ -52,7 +51,7 @@ if keyboard_check_direct(vk_control){
 	if keyboard_check_direct(keyTechniques) {techniqueDrawPage();};
 	if keyboard_check_direct(keyEvents)		{eventDrawPage();};
 	
-	if keyboard_check_direct(ord("I")) {sc_card_cardback_draw_all(1);}
+	if keyboard_check_direct(ord("I")) {cardbackDrawPage(1);}
 
 }
 

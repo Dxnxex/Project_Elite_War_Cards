@@ -2,23 +2,17 @@
 function screenshotsInit(){
 
 screenshotNumber = 0;
-Screenshot_DONE = 0;
-screenshot_start_single = 0;
-screenshot_start_ALL = 0;
-
-Screnshot_DELAY_par = 2;
-Screnshot_DELAY = Screnshot_DELAY_par;
-
-Screnshot_DELAY_page_par = 4;
-Screnshot_DELAY_page = Screnshot_DELAY_page_par;
+screenshotDone = 0;
+screenshotSingleStart = 0;
+screenshotPageStart = 0;
 
 //-----Scale-----
 globalvar RenderScale; 
 
 RenderScale = 1.11;
 
-if CardNumber == 4 {RenderScale = 1};
-if CardNumber == 3 {RenderScale = 1.11};
+if CardNumber == 3 {RenderScale = 1};
+if CardNumber == 4 {RenderScale = 1.11};
 
 //-----Formats-----
 formatW = 3508;

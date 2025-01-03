@@ -3,7 +3,7 @@
 ///@param CardBack
 
 
-function sc_card_cardback_draw_at_pos(argument0,argument1,argument2){
+function cardbackDraw(argument0,argument1,argument2){
 	
 //-----Current-----
 var _q = (CardNumber*CardNumber);

@@ -9,6 +9,7 @@ eventNumberMaxAll = 0;
 
 //Setup
 eventImage = spr_cardart_nothing;
+event_red = make_color_rgb(204,0,51);
 
 //-----1-----
 makeEventInit(1);

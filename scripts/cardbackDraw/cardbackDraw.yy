@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_cardback_draw_at_pos",
+  "%Name":"cardbackDraw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_cardback_draw_at_pos",
+  "name":"cardbackDraw",
   "parent":{
     "name":"CardBack",
     "path":"folders/Scripts/CardBack.yy",

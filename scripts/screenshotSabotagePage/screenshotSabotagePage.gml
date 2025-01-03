@@ -17,10 +17,10 @@ repeat(sabotageMaxPages) {
 				if i==1 {Element=2;sabotageDrawPage()};
 				if i==2 {Element=3;sabotageDrawPage()};
 				if i==3 {Element=4;sabotageDrawPage()};
-				if i==4 {sc_card_cardback_draw_all(1);};
-				if i==5 {sc_card_cardback_draw_all(2);};
-				if i==6 {sc_card_cardback_draw_all(3);};
-				if i==7 {sc_card_cardback_draw_all(4);};
+				if i==4 {cardbackDrawPage(1);};
+				if i==5 {cardbackDrawPage(2);};
+				if i==6 {cardbackDrawPage(3);};
+				if i==7 {cardbackDrawPage(4);};
 	
 			//Create an sprite from surface 
 			var surfaceSprite = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);

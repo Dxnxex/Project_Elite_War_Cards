@@ -55,12 +55,11 @@ if keyboard_check_direct(ord("Z")) {
 
 }
 
-if Element == 0 {ElementTXT = ""}
-if Element == 1 {ElementTXT = "Earth"}
-if Element == 2 {ElementTXT = "Fire"}
-if Element == 3 {ElementTXT = "Water"}
-if Element == 4 {ElementTXT = "Wind"}
-
+if Element == 0 {ElementTXT = "";};
+if Element == 1 {ElementTXT = "Earth";};
+if Element == 2 {ElementTXT = "Fire";};
+if Element == 3 {ElementTXT = "Water";};
+if Element == 4 {ElementTXT = "Wind";};
 
 //Circle SETUP
 if mouse_check_button(mb_right) {circle = 4} else {circle=0};

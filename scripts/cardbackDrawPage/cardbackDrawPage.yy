@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_draw_card_arrow",
+  "%Name":"cardbackDrawPage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_draw_card_arrow",
+  "name":"cardbackDrawPage",
   "parent":{
-    "name":"Custom",
-    "path":"folders/Scripts/Custom.yy",
+    "name":"CardBack",
+    "path":"folders/Scripts/CardBack.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

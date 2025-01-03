@@ -1,7 +1,7 @@
 function screenshotSingle(){
 
 
-if screenshot_start_single == 1 { 
+if screenshotSingleStart == 1 { 
 
 		CardNumber = 1;
 				
@@ -18,7 +18,7 @@ if screenshot_start_single == 1 {
 			
 			show_debug_message("END");
 			screenshotNumber=0;
-			screenshot_start_single = 0;
+			screenshotSingleStart = 0;
 			
 				//-----RE-INIT-----
 				basicNumber=0;
@@ -30,11 +30,7 @@ if screenshot_start_single == 1 {
 				CardNumber = cardNumberSet;
 		
 		};
-		
-		
-		if Screnshot_DELAY!=0 {Screnshot_DELAY--;} else {Screnshot_DELAY = Screnshot_DELAY_par;};
-
-}
+};
 
 
-}
+};

@@ -15,12 +15,12 @@ function screenshotReset(){
 	eventNumberAll=0;
 	
 	//Reset
-	screenshot_start_single = 0;
-	screenshot_start_ALL = 0;
+	screenshotSingleStart = 0;
+	screenshotPageStart = 0;
 
 	//All
 	screenshotNumber = 1;
-	Screenshot_DONE = 0;
+	screenshotDone = 0;
 	PDF_P = 1;
 	PDF_Z = 1;
 	Element = 1;
