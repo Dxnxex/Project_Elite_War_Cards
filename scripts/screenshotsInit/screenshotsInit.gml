@@ -24,7 +24,7 @@ CardHeight = sprite_get_height(spriteParent);
 originFormat = CardWidth/CardHeight;
 
 formatCurrent = format_A4;
-formatBetween = 1;
+formatBetween = 30;
 formatBetweenH = formatBetween*getAspectHeight();
 
 ScreenshotW = getScreenshotWidth();

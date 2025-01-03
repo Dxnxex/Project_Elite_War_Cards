@@ -5,7 +5,7 @@ setCamera();
 
 //-----SETUP Global-----
 CardScale = 1;
-CardNumber = 3;
+CardNumber = 4;
 cardNumberSet = CardNumber;
 
 //-----Inits-----
