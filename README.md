@@ -32,7 +32,3 @@ Níže naleznete ukázky generovaných karet a jejich layoutů:
 ## Poznámka
 
 Veškeré prvky zobrazené na obrázku (žetony, layout, text) jsou mé vlastní tvorby. Vnitřní obrázky byly vytvořeny pomocí umělé inteligence, kterou jsem vytrénoval na základě mých vzorů, aby splňovaly požadované specifikace.
-
-## Kontakt
-
-Pro více informací nebo spolupráci mě můžete kontaktovat na [email@example.com](mailto:email@example.com).
