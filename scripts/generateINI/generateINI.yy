@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"generateINI",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"generateINI",
+  "parent":{
+    "name":"Custom",
+    "path":"folders/Scripts/Custom.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

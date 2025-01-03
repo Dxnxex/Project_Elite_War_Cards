@@ -11,7 +11,7 @@ function screenshotReset(){
 	basicNumberAll=0;
 	secureNumberAll=0;
 	sabotageNumberAll=0;
-	techniquesNumberAll=0;
+	techniqueNumberAll=0;
 	eventNumberAll=0;
 	
 	//Reset

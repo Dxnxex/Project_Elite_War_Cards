@@ -31,10 +31,10 @@ if missionType == 1 {
 		//Sprite
 		var Path = argument1 ?? "BoardGame - CardsArt - Error";
 		
-		CardSecure_ImageOut[secureNumber] = sprite_add(working_directory+string("sprites/Secure/")+string(Path)+string("."+string("png")),0,0,1,0,0);
-		var W = sprite_get_width(CardSecure_ImageOut[secureNumber]);
-		var H = sprite_get_height(CardSecure_ImageOut[secureNumber]);
-		sprite_set_offset(CardSecure_ImageOut[secureNumber], W/2, H/2);			
+		secureImageInput[secureNumber] = sprite_add(working_directory+string("sprites/Secure/")+string(Path)+string("."+string("png")),0,0,1,0,0);
+		var W = sprite_get_width(secureImageInput[secureNumber]);
+		var H = sprite_get_height(secureImageInput[secureNumber]);
+		sprite_set_offset(secureImageInput[secureNumber], W/2, H/2);			
 		
 }
 #endregion
@@ -48,10 +48,10 @@ if missionType == 2 {
 		//Sprite
 		var Path = argument1 ?? "BoardGame - CardsArt - Error";
 		
-		CardSabotage_ImageOut[sabotageNumber] = sprite_add(working_directory+string("sprites/Sabotage/")+string(Path)+string("."+string("png")),0,0,1,0,0);
-		var W = sprite_get_width(CardSabotage_ImageOut[sabotageNumber]);
-		var H = sprite_get_height(CardSabotage_ImageOut[sabotageNumber]);
-		sprite_set_offset(CardSabotage_ImageOut[sabotageNumber], W/2, H/2);					
+		sabotageImageInput[sabotageNumber] = sprite_add(working_directory+string("sprites/Sabotage/")+string(Path)+string("."+string("png")),0,0,1,0,0);
+		var W = sprite_get_width(sabotageImageInput[sabotageNumber]);
+		var H = sprite_get_height(sabotageImageInput[sabotageNumber]);
+		sprite_set_offset(sabotageImageInput[sabotageNumber], W/2, H/2);					
 		
 		
 }

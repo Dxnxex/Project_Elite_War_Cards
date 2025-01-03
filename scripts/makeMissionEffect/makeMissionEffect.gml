@@ -3,6 +3,7 @@
 
 function makeMissionEffect(argument0, argument1){
 
+//PRE-TEXT
 var pre,pre2;
 
 if argument0!="" {_pre = "Correspondention KARTY: (HŘBITOV)\n";} else {_pre=""};
@@ -10,9 +11,9 @@ if argument1!="" {_pre2 = "";} else {_pre2=""};
 
 #region Basic
 if missionType == 0 {
-	CardMissionBasic_6_Desc[basicNumber] = argument0;
-	CardMissionBasic_6_Counter[basicNumber] = _pre2;
-	CardMissionBasic_6_Pre[basicNumber] = _pre;
+	basicMissionEffect[basicNumber] = argument0;
+	basicMissionCounter[basicNumber] = _pre2;
+	basicMissionCorrespondention[basicNumber] = _pre;
 }
 
 #endregion
@@ -21,9 +22,9 @@ if missionType == 0 {
 #region Secure
 if missionType == 1 {
 	_pre = "Correspondention KARTY: (AKTIVNÍ POLE)\n";
-	CardMissionSecure_6_Desc[secureNumber] = argument0;
-	CardMissionSecure_6_Counter[secureNumber] = _pre2;
-	CardMissionSecure_6_Pre[secureNumber] = _pre;
+	secureMissionEffect[secureNumber] = argument0;
+	secureMissionCounter[secureNumber] = _pre2;
+	secureMissionCorrespondention[secureNumber] = _pre;
 }
 
 #endregion
@@ -32,9 +33,9 @@ if missionType == 1 {
 #region Sabotage
 if missionType == 2 {
 	_pre = "Correspondention KARTY: (SOUPEŘOVA KARTA)\n";
-	CardMissionSabotage_6_Desc[sabotageNumber] = argument0;
-	CardMissionSabotage_6_Counter[sabotageNumber] = _pre2 + argument1;
-	CardMissionSabotage_6_Pre[sabotageNumber] = _pre;
+	sabotageMissionEffect[sabotageNumber] = argument0;
+	sabotageMissionCounter[sabotageNumber] = _pre2 + argument1;
+	sabotageMissionCorrespondention[sabotageNumber] = _pre;
 }
 #endregion
 }

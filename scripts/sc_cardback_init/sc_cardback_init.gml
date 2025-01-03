@@ -24,13 +24,13 @@ function sc_cardback_init() {
 	};
 	
 		//-----Technique-----
-	for(var _z=0;_z<ctnMaxPages*(CardNumber*CardNumber);_z++) {
-		if (_z<=ctnMaxAll) {cardbackShowTechnique[_z] = 1;} else {cardbackShowTechnique[_z]=noone};
+	for(var _z=0;_z<techniquMaxPages*(CardNumber*CardNumber);_z++) {
+		if (_z<=techniqueNumberMaxAll) {cardbackShowTechnique[_z] = 1;} else {cardbackShowTechnique[_z]=noone};
 	};
 	
 		//-----Events-----
-	for(var _z=0;_z<_card_event_numbermaxpages*(CardNumber*CardNumber);_z++) {
-		if (_z<=card_event_numberMaxAll) {cardbackShowEvent[_z] = 1;} else {cardbackShowEvent[_z]=noone};
+	for(var _z=0;_z<eventMaxPages*(CardNumber*CardNumber);_z++) {
+		if (_z<=eventNumberMaxAll) {cardbackShowEvent[_z] = 1;} else {cardbackShowEvent[_z]=noone};
 	};
 	
 	

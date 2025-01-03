@@ -21,7 +21,7 @@ function secureDraw(argument0,argument1,argument2){
 		
 			//-----Image-----
 			setLenghtdir(380,90); 
-			draw_sprite_ext(CardSecure_ImageOut[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),ImageScale,ImageScale,rot,c_white,1);
+			draw_sprite_ext(secureImageInput[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),ImageScale,ImageScale,rot,c_white,1);
 
 			//------Overlay-----
 			draw_sprite_ext(sprite,0,posX+(wsprite/2)+lengthdir_x(0,0),posY+(hsprite/2)+lengthdir_y(0,0),CardScale,CardScale,rot,c_white,1);
@@ -41,35 +41,35 @@ function secureDraw(argument0,argument1,argument2){
 	
 			//----Reward (Text)----
 			setFont(fontTitle);	setLenghtdir(159,-90);
-			textShadowLess(CardMissionSecure_Desc_1[i],c_black);	
+			textShadowLess(secureMissionDesc[i],c_black);	
 			sc_cirle();
 		
 			//-----Reward TOKEN (Left)-----
 			setLenghtdir(530.64,-161.94);
-			draw_sprite_ext(CardMissionSecure_6_Token_1[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			draw_sprite_ext(secureMissionTokenLeft[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
 			sc_cirle();	
 		
 			//-----Reward TOKEN (Right)-----
 			setLenghtdir(528.81,-17.44);
-			draw_sprite_ext(CardMissionSecure_6_Token_2[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			draw_sprite_ext(secureMissionTokenRight[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
 			sc_cirle();		
 
 			//-----Correspondention (Text)-----
 			setFont(fontMissionCorrespondention);	
 			setLenghtdir(266.00,-90);
-			textShadowLess(string(CardMissionSecure_6_Pre[i]),c_black);
+			textShadowLess(string(secureMissionCorrespondention[i]),c_black);
 		
 			//-----Correspondention (EFEKT)-----
 			setFont(fo_V11_card_effect);	
 			setLenghtdir(335.00,-90);
 			setTextAlign(fa_top,fa_center);
-			textShadow(string(CardMissionSecure_6_Desc[i]),c_white);
+			textShadow(string(secureMissionEffect[i]),c_white);
 		
 			//-----Counter-Card (Text)-----
 			setFont(fontMissionTitle);
 			setLenghtdir(750,-90);
 			setTextAlign(fa_middle,fa_center);
-			textShadowLess(string(CardMissionSecure_6_Counter[i]),c_black);
+			textShadowLess(string(secureMissionCounter[i]),c_black);
 		
 
 			#region Edition & Info

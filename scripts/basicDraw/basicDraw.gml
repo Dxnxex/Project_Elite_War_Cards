@@ -43,35 +43,35 @@ function basicDraw(argument0,argument1,argument2){
 	
 			//----Reward (Text)----
 			setLenghtdir(159,-90);
-			textShadowLess(CardMissionBasic_Desc_1[i],c_black);	
+			textShadowLess(basicMissionDesc[i],c_black);	
 			sc_cirle();
 		
 			//-----Reward TOKEN (Left)-----
 			setLenghtdir(530.64,-161.94);
-			draw_sprite_ext(CardMissionBasic_6_Token_1[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			draw_sprite_ext(basicMissionTokenLeft[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
 			sc_cirle();	
 		
 			//-----Reward TOKEN (Right)-----
 			setLenghtdir(528.81,-17.44);
-			draw_sprite_ext(CardMissionBasic_6_Token_2[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
+			draw_sprite_ext(basicMissionTokenRight[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);
 			sc_cirle();		
 
 			//-----Correspondention (Text)-----
 			setFont(fontMissionCorrespondention);	
 			setLenghtdir(266.00,-90);
-			textShadowLess(string(CardMissionBasic_6_Pre[i]),c_black);
+			textShadowLess(string(basicMissionCorrespondention[i]),c_black);
 		
 			//-----Correspondention (EFEKT)-----
 			setFont(fo_V11_card_effect);	
 			setLenghtdir(335.00,-90);
 			setTextAlign(fa_top,fa_center);
-			textShadow(string(CardMissionBasic_6_Desc[i]),c_white);
+			textShadow(string(basicMissionEffect[i]),c_white);
 		
 			//-----Counter-Card (Text)-----
 			setFont(fontMissionTitle);
 			setLenghtdir(750,-90);
 			setTextAlign(fa_middle,fa_center);
-			textShadowLess(string(CardMissionBasic_6_Counter[i]),c_black);
+			textShadowLess(string(basicMissionCounter[i]),c_black);
 		
 
 			#region Edition & Info

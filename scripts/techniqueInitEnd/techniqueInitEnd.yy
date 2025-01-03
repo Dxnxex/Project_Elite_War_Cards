@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"techniqueInitEnd",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"techniqueInitEnd",
+  "parent":{
+    "name":"Init",
+    "path":"folders/Scripts/Techniques/Init.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

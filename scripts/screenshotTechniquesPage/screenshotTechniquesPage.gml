@@ -1,6 +1,6 @@
 function screenshotTechniquesPage(){
 
-repeat(ctnMaxPages) {
+repeat(techniquMaxPages) {
 	
 	for(var i=0;i<8;i++) {
 		
@@ -36,7 +36,7 @@ repeat(ctnMaxPages) {
 			sprite_delete(surfaceSprite);
 	
 		};
-		techniquesNumberAll+=(CardNumber*CardNumber);
+		techniqueNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

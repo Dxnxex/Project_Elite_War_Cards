@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"techniquesInit",
   "parent":{
-    "name":"Techniques",
-    "path":"folders/Scripts/Techniques.yy",
+    "name":"Init",
+    "path":"folders/Scripts/Techniques/Init.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

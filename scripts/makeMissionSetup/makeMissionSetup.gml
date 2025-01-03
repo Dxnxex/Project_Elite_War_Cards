@@ -30,31 +30,29 @@ function makeMissionSetup(argument0,argument1,argument2){
 		}
 		
 
-
-
 _pre = "HLAVNÍ MISE: ";
 
 #region Basic
 if missionType == 0 {
-	CardMissionBasic_Desc_1[basicNumber] = _pre+string_upper(argument0);
-	CardMissionBasic_6_Token_1[basicNumber] = tokenLeft;
-	CardMissionBasic_6_Token_2[basicNumber] = tokenRight;
+	basicMissionDesc[basicNumber] = _pre+string_upper(argument0);
+	basicMissionTokenLeft[basicNumber] = tokenLeft;
+	basicMissionTokenRight[basicNumber] = tokenRight;
 }
 #endregion
 
 #region Secure
 if missionType == 1 {
-	CardMissionSecure_Desc_1[secureNumber] = _pre+string_upper(argument0);
-	CardMissionSecure_6_Token_1[secureNumber] = tokenLeft;
-	CardMissionSecure_6_Token_2[secureNumber] = tokenRight;
+	secureMissionDesc[secureNumber] = _pre+string_upper(argument0);
+	secureMissionTokenLeft[secureNumber] = tokenLeft;
+	secureMissionTokenRight[secureNumber] = tokenRight;
 }
 #endregion
 
 #region Sabotage
 if missionType == 2 {
-	CardMissionSabotage_Desc_1[sabotageNumber] = _pre+string_upper(argument0);
-	CardMissionSabotage_6_Token_1[sabotageNumber] = tokenLeft;
-	CardMissionSabotage_6_Token_2[sabotageNumber] = tokenRight;
+	sabotageMissionDesc[sabotageNumber] = _pre+string_upper(argument0);
+	sabotageMissionTokenLeft[sabotageNumber] = tokenLeft;
+	sabotageMissionTokenRight[sabotageNumber] = tokenRight;
 }
 #endregion
 }

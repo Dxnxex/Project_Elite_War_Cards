@@ -14,11 +14,7 @@ missionsInit();
 techniquesInit();
 eventsInit();
 screenshotsInit(); 
-
-//Card back
-_cardback_list = 0;
 sc_cardback_init();
-
 
 //----SETUP FONT-----
 setTextSizeAndWidth(0,2000);
@@ -43,32 +39,5 @@ keyScreenshotSingle = ord("S");
 keyScreenshotPage = ord("D");
 
 
-//-----Generate JSON-----
-var file = "Generate.ini";
-file_delete(file);
-
-ini_open(file);
-
-randomize();
-for(var i=0;i<=ctnMaxAll;i++) {
-	for(var p=1;p<=4;p++) {
-	
-		var add = 1;
-		if CardTechniquesAtributteText[p,i] == "Spotřeba" || CardTechniquesAtributteText[p,i] == "Obnovení" {add=-1};
-	
-		if CardTechniquesAtributteText[p,i] != "" {
-			
-			var Max = max(0,CardTechniquesAtributteValue[p,i]+2*add);
-			
-			
-			//Pevná délka
-			var txt = CardTechniquesAtributteText[p,i];
-			while (string_length(txt)<=20) {txt+=" ";}
-				
-			ini_write_string(cardTechniquesName[i],txt,+string(CardTechniquesAtributteValue[p,i])+string(" -> ")+string(Max));
-		}
-	
-	};
-};
-
-ini_close();
+//-----Generate INI-----
+generateINI();

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"makeTechniqueMethod",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"makeTechniqueMethod",
+  "parent":{
+    "name":"Make",
+    "path":"folders/Scripts/Techniques/Make.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

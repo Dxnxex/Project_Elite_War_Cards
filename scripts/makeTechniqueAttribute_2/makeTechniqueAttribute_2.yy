@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"makeTechniqueAttribute_2",
   "parent":{
-    "name":"Techniques",
-    "path":"folders/Scripts/Techniques.yy",
+    "name":"Make",
+    "path":"folders/Scripts/Techniques/Make.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

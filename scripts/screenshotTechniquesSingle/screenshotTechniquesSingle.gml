@@ -1,6 +1,6 @@
 function screenshotTechniquesSingle(){
 
-repeat(ctnMaxAll+1) {
+repeat(techniqueNumberMaxAll+1) {
 	
 			//-----Setup-----
 			Element=0;		

@@ -20,10 +20,10 @@ for(var _x=1;_x<=CardNumber;_x++){
 		posY = (cardSpaceY*_x-hsprite)-((CardHeight*CardScale)*1-hsprite)/2;
 		
 		//Image number
-		var i = (techniquesNumberAll+(_x-1)+CardNumber*(_y-1));
+		var i = (techniqueNumberAll+(_x-1)+CardNumber*(_y-1));
 
 		//Draw
-		if i <= ctnMaxAll {techniqueDraw(i,posX,posY);};
+		if i <= techniqueNumberMaxAll {techniqueDraw(i,posX,posY);};
 
 	};
 };

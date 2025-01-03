@@ -4,7 +4,7 @@ function missionsInit(){
 	missionsSecureCreate();
 	missionsSabotageCreate();
 	
-	missionCreateEnd();
+	missionInitEnd();
 	
 }
 

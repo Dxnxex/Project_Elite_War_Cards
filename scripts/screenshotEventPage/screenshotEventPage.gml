@@ -1,6 +1,6 @@
 function screenshotEventPage(){
 
-repeat(_card_event_numbermaxpages) {
+repeat(eventMaxPages) {
 	
 	for(var i=0;i<=1;i++) {
 		

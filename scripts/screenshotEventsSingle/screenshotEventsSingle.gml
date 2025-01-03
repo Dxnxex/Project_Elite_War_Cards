@@ -1,6 +1,6 @@
 function screenshotEventsSingle(){
 
-repeat(card_event_numberMaxAll+1) {
+repeat(eventNumberMaxAll+1) {
 	
 			//-----Setup-----
 			Element=0;		

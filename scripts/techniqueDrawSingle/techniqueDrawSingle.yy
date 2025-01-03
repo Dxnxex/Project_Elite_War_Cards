@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"techniqueDrawSingle",
   "parent":{
-    "name":"Techniques",
-    "path":"folders/Scripts/Techniques.yy",
+    "name":"Draw",
+    "path":"folders/Scripts/Techniques/Draw.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

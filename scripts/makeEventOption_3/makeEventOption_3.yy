@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"makeEventOption_3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"makeEventOption_3",
+  "parent":{
+    "name":"Make",
+    "path":"folders/Scripts/Events/Make.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

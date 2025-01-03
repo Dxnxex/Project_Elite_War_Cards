@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"eventsInit",
   "parent":{
-    "name":"Events",
-    "path":"folders/Scripts/Events.yy",
+    "name":"Init",
+    "path":"folders/Scripts/Events/Init.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

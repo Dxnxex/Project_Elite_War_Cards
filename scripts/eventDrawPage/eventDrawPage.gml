@@ -23,7 +23,7 @@ for(var _x=1;_x<=CardNumber;_x++){
 		var i = (eventNumberAll+(_x-1)+CardNumber*(_y-1));
 
 		//Draw
-		if i <= card_event_numberMaxAll {eventDraw(i,posX,posY);};
+		if i <= eventNumberMaxAll {eventDraw(i,posX,posY);};
 
 	};
 };
