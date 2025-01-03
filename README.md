@@ -10,4 +10,4 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 - **Export ve formátu A4**: Výstup je optimalizován pro tisk na formát A4.
 - **Zarovnání rubu karet**: Rubové strany karet jsou zarovnány opačně pro snadnější tisk a následné zpracování.
 
-![Alternativní text](images/nazev_obrazku.png)
+![A4 Formát](images/nazev_obrazku.png)
