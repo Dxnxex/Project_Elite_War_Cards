@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"makeMissionInit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"makeMissionInit",
+  "parent":{
+    "name":"Make",
+    "path":"folders/Scripts/Mission/Make.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -9,18 +9,18 @@ function sc_cardback_init() {
 	for(var _z=0;_z<CardNumber;_z++) {_cardback_last[_z] = _i;};
 	
 	//-----Basic-----
-	for(var _z=0;_z<cardMissionBasicNumberMaxPages*(CardNumber*CardNumber);_z++) {
-		if (_z<=cardMissionBasicNumberMaxAll) {cardbackShowBasic[_z] = 1;} else {cardbackShowBasic[_z]=noone};
+	for(var _z=0;_z<basicMaxPages*(CardNumber*CardNumber);_z++) {
+		if (_z<=basicNumberMaxAll) {cardbackShowBasic[_z] = 1;} else {cardbackShowBasic[_z]=noone};
 	};
 	
 		//-----Secure-----
-	for(var _z=0;_z<cardMissionSecureNumberMaxPages*(CardNumber*CardNumber);_z++) {
-		if (_z<=cardMissionSecureNumberMaxAll) {cardbackShowSecure[_z] = 1;} else {cardbackShowSecure[_z]=noone};
+	for(var _z=0;_z<secureMaxPages*(CardNumber*CardNumber);_z++) {
+		if (_z<=secureNumberMaxAll) {cardbackShowSecure[_z] = 1;} else {cardbackShowSecure[_z]=noone};
 	};
 	
 		//-----Sabotage-----
-	for(var _z=0;_z<cardMissionSabotageNumberMaxPages*(CardNumber*CardNumber);_z++) {
-		if (_z<=cardMissionSabotageNumberMaxAll) {cardbackShowSabotage[_z] = 1;} else {cardbackShowSabotage[_z]=noone};
+	for(var _z=0;_z<sabotageMaxPages*(CardNumber*CardNumber);_z++) {
+		if (_z<=sabotageNumberMaxAll) {cardbackShowSabotage[_z] = 1;} else {cardbackShowSabotage[_z]=noone};
 	};
 	
 		//-----Technique-----

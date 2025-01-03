@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"secureDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"secureDraw",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Mission/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

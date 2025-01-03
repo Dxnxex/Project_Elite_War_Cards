@@ -1,6 +1,6 @@
 function screenshotBasicPage(){
 
-repeat(cardMissionBasicNumberMaxPages) {
+repeat(basicMaxPages) {
 	
 	for(var i=0;i<8;i++) {
 		
@@ -13,10 +13,10 @@ repeat(cardMissionBasicNumberMaxPages) {
 			draw_rectangle(0,0,ScreenshotW,ScreenshotH,0);
 	
 				//Image
-				if i==0 {Element=1;sc_card_missions_basic_draw_all()};
-				if i==1 {Element=2;sc_card_missions_basic_draw_all()};
-				if i==2 {Element=3;sc_card_missions_basic_draw_all()};
-				if i==3 {Element=4;sc_card_missions_basic_draw_all()};
+				if i==0 {Element=1;basicDrawPage()};
+				if i==1 {Element=2;basicDrawPage()};
+				if i==2 {Element=3;basicDrawPage()};
+				if i==3 {Element=4;basicDrawPage()};
 				if i==4 {sc_card_cardback_draw_all(1);};
 				if i==5 {sc_card_cardback_draw_all(2);};
 				if i==6 {sc_card_cardback_draw_all(3);};

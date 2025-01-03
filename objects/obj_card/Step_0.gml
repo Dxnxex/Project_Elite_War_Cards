@@ -4,13 +4,13 @@ if keyboard_check_pressed(vk_space) {sc_element_switch();};
 if screenshotNumber==0 && !keyboard_check_direct(vk_control) {
 	
 
-	if mouse_wheel_up() && basicNumber!=cardMissionBasicNumberMax {basicNumber++};
+	if mouse_wheel_up() && basicNumber!=basicNumberMax {basicNumber++};
 	if mouse_wheel_down() && basicNumber!=0 {basicNumber--};
 
-	if mouse_wheel_up() && secureNumber!=cardMissionSecureNumberMax {secureNumber++};
+	if mouse_wheel_up() && secureNumber!=secureNumberMax {secureNumber++};
 	if mouse_wheel_down() && secureNumber!=0 {secureNumber--};
 
-	if mouse_wheel_up() && sabotageNumber!=cardMissionSabotageNumberMax {sabotageNumber++};
+	if mouse_wheel_up() && sabotageNumber!=sabotageNumberMax {sabotageNumber++};
 	if mouse_wheel_down() && sabotageNumber!=0 {sabotageNumber--};
 	
 if mouse_wheel_up() && eventNumber!=card_event_numberMax {eventNumber++};
@@ -33,15 +33,15 @@ if keyboard_check_pressed(ord("Z")) {_cardback_list=0;eventNumberAll=0};
 
 
 if keyboard_check_direct(ord("W")) {
-	if mouse_wheel_up() && basicNumberAll<(cardMissionBasicNumberMaxAll-((CardNumber*CardNumber)-1)) {basicNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && basicNumberAll<(basicNumberMaxAll-((CardNumber*CardNumber)-1)) {basicNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 	if mouse_wheel_down() && basicNumberAll!=0 {basicNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 }
 if keyboard_check_direct(ord("E")) {
-	if mouse_wheel_up() && secureNumberAll<(cardMissionSecureNumberMaxAll-((CardNumber*CardNumber)-1)) {secureNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && secureNumberAll<(secureNumberMaxAll-((CardNumber*CardNumber)-1)) {secureNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 	if mouse_wheel_down() && secureNumberAll!=0 {secureNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 }
 if keyboard_check_direct(ord("R")) {
-	if mouse_wheel_up() && sabotageNumberAll<(cardMissionSabotageNumberMaxAll-((CardNumber*CardNumber)-1)) {sabotageNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && sabotageNumberAll<(sabotageNumberMaxAll-((CardNumber*CardNumber)-1)) {sabotageNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 	if mouse_wheel_down() && sabotageNumberAll!=0 {sabotageNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
 }	
 if keyboard_check_direct(ord("T")) {

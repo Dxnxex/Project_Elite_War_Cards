@@ -9,7 +9,7 @@ CardEvents_Opt1[eventNumber] = argument0;
 CardEvents_Opt1_Req[eventNumber] = string_upper(argument1);
 CardEvents_Opt1_Text[eventNumber] = argument2;
 
-CardEvents_Opt1_After[eventNumber] = sc_card_events_after(argument3);
+CardEvents_Opt1_After[eventNumber] = makeEventsAfter(argument3);
 
 
 }

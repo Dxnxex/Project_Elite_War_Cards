@@ -13,7 +13,7 @@ ctnMaxAll=techniquesNumberAll;
 	//Edition
 	var Edition = "";
 	switch(argument0) {
-		case 1: Edition = "Originální Edition"; break;
+		case 1: Edition = "Originální edice"; break;
 		case 2: Edition = "První rozšíření"; break;
 		default: Edition = "ERROR"; break;
 	}

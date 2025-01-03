@@ -16,7 +16,7 @@ repeat(card_event_numberMaxAll+1) {
 			draw_rectangle(0,0,cardW,cardH,0);
 	
 			//Image
-			sc_card_events_draw();
+			eventDrawSingle();
 	
 			//Create an sprite from surface 
 			var spr_custom = sprite_create_from_surface(surf, 0, 0, cardW, cardH, false, false, 0, 0);

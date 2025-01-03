@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sabotageDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sabotageDraw",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Mission/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

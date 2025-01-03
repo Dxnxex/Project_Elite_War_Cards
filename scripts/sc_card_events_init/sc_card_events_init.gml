@@ -9,7 +9,7 @@ card_event_numberMaxAll=eventNumberAll;
 
 
 var Edition = "";
-if argument0 == 1 {Edition = "Originální Edition"}
+if argument0 == 1 {Edition = "Originální edice"}
 CardEvent_Edition[eventNumber] = Edition;
 CardEvent_Info[eventNumber] = string("EV#")+string(eventNumber+1);
 

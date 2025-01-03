@@ -14,7 +14,7 @@ Screnshot_DELAY_page_par = 4;
 Screnshot_DELAY_page = Screnshot_DELAY_page_par;
 
 //-----Scale-----
-globalvar scale; scale = 1.11;
+globalvar RenderScale; RenderScale = 1.11;
 //-----Formats-----
 formatW = 3508;
 formatH = 2480;

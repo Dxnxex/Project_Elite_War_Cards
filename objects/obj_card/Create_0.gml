@@ -4,7 +4,7 @@ globalvar CardWidth,CardHeight,ScreenshotW,ScreenshotH,CardScale, CardNumber;
 setCamera();
 
 //-----SETUP Global-----
-CardScale = 0.1;
+CardScale = 1;
 CardNumber = 4;
 
 //-----Inits-----
@@ -23,17 +23,6 @@ screenshotsInit();
 _cardback_list = 0;
 sc_cardback_init();
 
-//----Card varibles-----
-posX = 0;
-posY = 0;
-rot = 0;
-flip = 0;
-wsprite = spr_token_nothing;
-hsprite = spr_token_nothing;
-sprite = spr_token_nothing;
-	pos = 0;
-	angle = 0
-	circle = 1;
 
 //----SETUP FONT-----
 setTextSizeAndWidth(0,2000);
@@ -47,6 +36,16 @@ ascale = 0.55;							//Arrow scale
 
 //Specific variables
 event_red = make_color_rgb(204,0,51);
+
+//-----Keybindings-----
+keyBasic = ord("W");
+keySecure= ord("E");
+keySabotage = ord("R");
+keyTechniques = ord("T");
+keyEvents = ord("Z");
+keyScreenshotSingle = ord("S");
+keyScreenshotPage = ord("D");
+keyScreenshotCustom = ord("F");
 
 
 //-----Generate JSON-----

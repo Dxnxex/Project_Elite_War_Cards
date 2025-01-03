@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"basicDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"basicDraw",
+  "parent":{
+    "name":"Draw",
+    "path":"folders/Scripts/Mission/Draw.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -13,101 +13,103 @@
 
 function missionsSecureCreate(){
 
+//Counting
 secureNumber = -1;
-cardMissionSecureNumberMax = 0;
-CardMissionSecure_Image = spr_cardart_output_mission_secure;
-
+secureNumberMax = 0;
 secureNumberAll = -1;
-cardMissionSecureNumberMaxAll = 0
+secureNumberMaxAll = 0
+
+//Setup
+secureImage = spr_cardart_output_mission_secure;
 
 
 //-----1-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[0],0,"BoardGame - CardsArt - Secure - 001");
-sc_card_mission_desc("","Hlavní město",1);
-sc_card_mission_desc_1("80 REUNŮ",1,0);
-sc_card_mission_desc_6("Na začátku každého 3 kola na FÁZOVAČI dostaneš imunitu proti napadení",CardMissionSabotage_Parent_Name[0]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[0],"BoardGame - CardsArt - Secure - 001");
+makeMissionDesc("Hlavní město");
+makeMissionSetup("80 REUNŮ",1,0);
+makeMissionEffect("Na začátku každého 3 kola na FÁZOVAČI dostaneš imunitu proti napadení",sabotageNameParent[0]);
 
 //-----2-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[1],0,"BoardGame - CardsArt - Secure - 002");
-sc_card_mission_desc("","Obchod",1);
-sc_card_mission_desc_1("80 REUNŮ",1,0);
-sc_card_mission_desc_6("Snížené ceny v obchodě o 40 REUNŮ",CardMissionSabotage_Parent_Name[01]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[1],"BoardGame - CardsArt - Secure - 002");
+makeMissionDesc("Obchod");
+makeMissionSetup("80 REUNŮ",1,0);
+makeMissionEffect("Snížené ceny v obchodě o 40 REUNŮ",sabotageNameParent[01]);
 
 //-----3-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[2],0,"BoardGame - CardsArt - Secure - 003");
-sc_card_mission_desc("","Hranice",1);
-sc_card_mission_desc_1("120 REUNŮ",1,0);
-sc_card_mission_desc_6("V souboji máš o 5 jednotek ENERGIE více\n(Dej na tuto kartu žeton ENERGIE s číslem 5)",CardMissionSabotage_Parent_Name[02]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[2],"BoardGame - CardsArt - Secure - 003");
+makeMissionDesc("Hranice");
+makeMissionSetup("120 REUNŮ",1,0);
+makeMissionEffect("V souboji máš o 5 jednotek ENERGIE více\n(Dej na tuto kartu žeton ENERGIE s číslem 5)",sabotageNameParent[02]);
 
 //-----4-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[3],0,"BoardGame - CardsArt - Secure - 004");
-sc_card_mission_desc("","Muzeum",1);
-sc_card_mission_desc_1("1 Element + 1 Energie",2,3);
-sc_card_mission_desc_6(string("Na začátku každého 3 kola na FÁZOVAČI dostaneš 60 REUNŮ za každou drženou kartu ") +setStringQuoteUpper(CardMissionSecure_Parent_Name[3]) +string("\n(Vrší se a pro tuto kartu musíš udělat místo)"),CardMissionSabotage_Parent_Name[03]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[3],"BoardGame - CardsArt - Secure - 004");
+makeMissionDesc("Muzeum");
+makeMissionSetup("1 Element + 1 Energie",2,3);
+makeMissionEffect(string("Na začátku každého 3 kola na FÁZOVAČI dostaneš 60 REUNŮ za každou drženou kartu ") +setStringQuoteUpper(secureNameParent[3]) +string("\n(Vrší se a pro tuto kartu musíš udělat místo)"),sabotageNameParent[03]);
 
 
 //-----5-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[4],0,"BoardGame - CardsArt - Secure - 005");
-sc_card_mission_desc("","Trénink",1);
-sc_card_mission_desc_1("3 Energie",3,0);
-sc_card_mission_desc_6("Na začátku FÁZE dostaneš 5 ELEMENTŮ",CardMissionSabotage_Parent_Name[04]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[4],"BoardGame - CardsArt - Secure - 005");
+makeMissionDesc("Trénink");
+makeMissionSetup("3 Energie",3,0);
+makeMissionEffect("Na začátku FÁZE dostaneš 5 ELEMENTŮ",sabotageNameParent[04]);
 
 
 //-----6-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[5],0,"BoardGame - CardsArt - Secure - 006");
-sc_card_mission_desc("","Stavitelství",1);
-sc_card_mission_desc_1("60 REUNŮ + 2 Energie",1,3);
-sc_card_mission_desc_6("Tuto kartu považuj za kartu typu HRANICE na pozici 3\n(pouze pro obranu)",CardMissionSabotage_Parent_Name[05]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[5],"BoardGame - CardsArt - Secure - 006");
+makeMissionDesc("Stavitelství");
+makeMissionSetup("60 REUNŮ + 2 Energie",1,3);
+makeMissionEffect("Tuto kartu považuj za kartu typu HRANICE na pozici 3\n(pouze pro obranu)",sabotageNameParent[05]);
 
 
 //-----7-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[6],0,"BoardGame - CardsArt - Secure - 007");
-sc_card_mission_desc("","Hlavní město",1);
-sc_card_mission_desc_1("80 REUNŮ",1,0);
-sc_card_mission_desc_6("Jednorázově si přidej 4 karty",CardMissionSabotage_Parent_Name[06]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[6],"BoardGame - CardsArt - Secure - 007");
+makeMissionDesc("Hlavní město");
+makeMissionSetup("80 REUNŮ",1,0);
+makeMissionEffect("Jednorázově si přidej 4 karty",sabotageNameParent[06]);
 
 //-----8-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[7],0,"BoardGame - CardsArt - Secure - 008");
-sc_card_mission_desc("","Obchod",1);
-sc_card_mission_desc_1("80 REUNŮ",1,0);
-sc_card_mission_desc_6("Dostáváš jednorázově 300 REUNŮ",CardMissionSabotage_Parent_Name[07]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[7],"BoardGame - CardsArt - Secure - 008");
+makeMissionDesc("Obchod");
+makeMissionSetup("80 REUNŮ",1,0);
+makeMissionEffect("Dostáváš jednorázově 300 REUNŮ",sabotageNameParent[07]);
 
 //-----9-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[8],0,"BoardGame - CardsArt - Secure - 009");
-sc_card_mission_desc("","Hranice",1);
-sc_card_mission_desc_1("120 REUNŮ",1,0);
-sc_card_mission_desc_6("Neutralizuje (otočí rubem) libovolnou získanou kartu typu záškodnická mise.\n(Kontinuální efekt)",CardMissionSabotage_Parent_Name[08]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[8],"BoardGame - CardsArt - Secure - 009");
+makeMissionDesc("Hranice");
+makeMissionSetup("120 REUNŮ",1,0);
+makeMissionEffect("Neutralizuje (otočí rubem) libovolnou získanou kartu typu záškodnická mise.\n(Kontinuální efekt)",sabotageNameParent[08]);
 
 //-----10-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[9],0,"BoardGame - CardsArt - Secure - 010");
-sc_card_mission_desc("","Muzeum",1);
-sc_card_mission_desc_1("1 Element + 1 Energie",2,3);
-sc_card_mission_desc_6("V souboji se ti každé 3 kolo na FÁZOVAČI přidává 1 ENERGIE",CardMissionSabotage_Parent_Name[09]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[9],"BoardGame - CardsArt - Secure - 010");
+makeMissionDesc("Muzeum");
+makeMissionSetup("1 Element + 1 Energie",2,3);
+makeMissionEffect("V souboji se ti každé 3 kolo na FÁZOVAČI přidává 1 ENERGIE",sabotageNameParent[09]);
 
 
 //-----11-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[10],0,"BoardGame - CardsArt - Secure - 011");
-sc_card_mission_desc("","Trénink",1);
-sc_card_mission_desc_1("3 Energie",3,0);
-sc_card_mission_desc_6("V souboji máš o 1 bod POŠKOZENÍ více",CardMissionSabotage_Parent_Name[10]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[10],"BoardGame - CardsArt - Secure - 011");
+makeMissionDesc("Trénink");
+makeMissionSetup("3 Energie",3,0);
+makeMissionEffect("V souboji máš o 1 bod POŠKOZENÍ více",sabotageNameParent[10]);
 
 
 //-----12-----
-sc_card_missions_init(1,1);
-sc_card_mission_name(CardMissionSecure_Parent_Name[11],0,"BoardGame - CardsArt - Secure - 012");
-sc_card_mission_desc("","Stavitelství",1);
-sc_card_mission_desc_1("80 REUNŮ + 2 Energie",1,3);
-sc_card_mission_desc_6("První karta může být při rozdávání položena kamkoliv",CardMissionSabotage_Parent_Name[11]);
+makeMissionInit(1,1);
+makeMissionBase(secureNameParent[11],"BoardGame - CardsArt - Secure - 012");
+makeMissionDesc("Stavitelství");
+makeMissionSetup("80 REUNŮ + 2 Energie",1,3);
+makeMissionEffect("První karta může být při rozdávání položena kamkoliv",sabotageNameParent[11]);
 
 }

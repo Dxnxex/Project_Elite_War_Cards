@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"setBasicToken",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"setBasicToken",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Scripts/Mission/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

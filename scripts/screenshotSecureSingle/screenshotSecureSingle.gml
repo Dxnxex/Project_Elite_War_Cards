@@ -1,6 +1,6 @@
 function screenshotSecureSingle(){
 
-repeat(cardMissionSecureNumberMax+1) {
+repeat(secureNumberMax+1) {
 	
 			//-----Setup-----
 			Element=0;		
@@ -16,7 +16,7 @@ repeat(cardMissionSecureNumberMax+1) {
 			draw_rectangle(0,0,cardW,cardH,0);
 	
 			//Image
-			scCardMissionsSecureDraw();
+			secureDrawSingle();
 	
 			//Create an sprite from surface 
 			var spr_custom = sprite_create_from_surface(surf, 0, 0, cardW, cardH, false, false, 0, 0);

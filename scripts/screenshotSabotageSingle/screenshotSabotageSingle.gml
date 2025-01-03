@@ -1,6 +1,6 @@
 function screenshotSabotageSingle(){
 
-repeat(cardMissionSabotageNumberMax+1) {
+repeat(sabotageNumberMax+1) {
 	
 			//-----Setup-----
 			Element=0;		
@@ -16,7 +16,7 @@ repeat(cardMissionSabotageNumberMax+1) {
 			draw_rectangle(0,0,cardW,cardH,0);
 	
 			//Image
-			scCardMissionsSabotageDraw();
+			sabotageDrawSingle();
 	
 			//Create an sprite from surface 
 			var spr_custom = sprite_create_from_surface(surf, 0, 0, cardW, cardH, false, false, 0, 0);

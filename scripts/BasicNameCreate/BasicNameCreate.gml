@@ -3,6 +3,6 @@
 function basicNameCreate(argument0){
 
 basicNumber++;
-CardMissionBasic_Parent_Name[basicNumber] = argument0;
+basicNameParent[basicNumber] = argument0;
 
 }

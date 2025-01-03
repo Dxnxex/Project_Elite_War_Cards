@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"setSabotageToken",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"setSabotageToken",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Scripts/Mission/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -69,7 +69,7 @@ function spritesInputs(){
 	spriteTokenTechniqueAtributePush =			spriteAddToken("BoardGame - Token - Attributes - Push");
 	spriteTokenTechniqueAtributeRange =			spriteAddToken("BoardGame - Token - Attributes - Range");
 	spriteTokenTechniqueAtributeRecharge =		spriteAddToken("BoardGame - Token - Attributes - Recharge");
-	spriteTokenTechniqueAtributeScale =			spriteAddToken("BoardGame - Token - Attributes - Scale");
+	spriteTokenTechniqueAtributeScale =			spriteAddToken("BoardGame - Token - Attributes - RenderScale");
 	spriteTokenTechniqueAtributeSpeed =			spriteAddToken("BoardGame - Token - Attributes - Speed");
 	
 		//Wind

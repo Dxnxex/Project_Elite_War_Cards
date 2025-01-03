@@ -13,103 +13,103 @@
 
 function missionsBasicCreate(){
 
-CardMissionNumber = 0;
+//Counting
 basicNumber = -1;
-cardMissionBasicNumberMax = 0;
-CardMissionBasic_Image = spr_cardart_output_mission_basic;
-
+basicNumberMax = 0;
 basicNumberAll = -1;
-cardMissionBasicNumberMaxAll = 0
+basicNumberMaxAll = 0
 
+//Setup
+basicImage = spr_cardart_output_mission_basic;
 
 //-----1-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[0],0,"BoardGame - CardsArt - Basic - 001");
-sc_card_mission_desc("","Hlavní město",0);
-sc_card_mission_desc_1("60 REUNŮ",1,0);
-sc_card_mission_desc_6("","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[0],"BoardGame - CardsArt - Basic - 001");
+makeMissionDesc("Hlavní město");
+makeMissionSetup("60 REUNŮ",1,0);
+makeMissionEffect("","");
 
 //-----2-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[1],0,"BoardGame - CardsArt - Basic - 002");
-sc_card_mission_desc("","Obchod",0);
-sc_card_mission_desc_1("60 REUNŮ",1,0);
-sc_card_mission_desc_6("Jednorázová sleva 100 REUNŮ na jednu položku v ochodě (Platí pouze toto kolo)","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[1],"BoardGame - CardsArt - Basic - 002");
+makeMissionDesc("Obchod");
+makeMissionSetup("60 REUNŮ",1,0);
+makeMissionEffect("Jednorázová sleva 100 REUNŮ na jednu položku v ochodě (Platí pouze toto kolo)","");
 
 //-----3-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[2],0,"BoardGame - CardsArt - Basic - 003");
-sc_card_mission_desc("","Hranice",0);
-sc_card_mission_desc_1("100 REUNŮ",1,0);
-sc_card_mission_desc_6("","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[2],"BoardGame - CardsArt - Basic - 003");
+makeMissionDesc("Hranice");
+makeMissionSetup("100 REUNŮ",1,0);
+makeMissionEffect("","");
 
 //-----4-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[3],0,"BoardGame - CardsArt - Basic - 004");
-sc_card_mission_desc("","Muzeum",0);
-sc_card_mission_desc_1("1 Element",2,0);
-sc_card_mission_desc_6("Zvol si 1 techniku","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[3],"BoardGame - CardsArt - Basic - 004");
+makeMissionDesc("Muzeum");
+makeMissionSetup("1 Element",2,0);
+makeMissionEffect("Zvol si 1 techniku","");
 
 
 //-----5-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[4],0,"BoardGame - CardsArt - Basic - 005");
-sc_card_mission_desc("","Trénink",0);
-sc_card_mission_desc_1("2 Energie",3,0);
-sc_card_mission_desc_6("Přidej si 5 Energie","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[4],"BoardGame - CardsArt - Basic - 005");
+makeMissionDesc("Trénink");
+makeMissionSetup("2 Energie",3,0);
+makeMissionEffect("Přidej si 5 Energie","");
 
 
 //-----6-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[5],0,"BoardGame - CardsArt - Basic - 006");
-sc_card_mission_desc("","Stavitelství",0);
-sc_card_mission_desc_1("40 REUNŮ + 1 Energie",1,3);
-sc_card_mission_desc_6("Přesuň všechny vyložené karty jak chceš.","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[5],"BoardGame - CardsArt - Basic - 006");
+makeMissionDesc("Stavitelství");
+makeMissionSetup("40 REUNŮ + 1 Energie",1,3);
+makeMissionEffect("Přesuň všechny vyložené karty jak chceš.","");
 
 
 //-----7-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[6],0,"BoardGame - CardsArt - Basic - 007");
-sc_card_mission_desc("","Hlavní město",0);
-sc_card_mission_desc_1("60 REUNŮ",1,0);
-sc_card_mission_desc_6("","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[6],"BoardGame - CardsArt - Basic - 007");
+makeMissionDesc("Hlavní město");
+makeMissionSetup("60 REUNŮ",1,0);
+makeMissionEffect("","");
 
 //-----8-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[7],0,"BoardGame - CardsArt - Basic - 008");
-sc_card_mission_desc("","Obchod",0);
-sc_card_mission_desc_1("60 REUNŮ",1,0);
-sc_card_mission_desc_6("40 REUNŮ na všechny položky v obchodě (Platí pouze toto kolo)","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[7],"BoardGame - CardsArt - Basic - 008");
+makeMissionDesc("Obchod");
+makeMissionSetup("60 REUNŮ",1,0);
+makeMissionEffect("40 REUNŮ na všechny položky v obchodě (Platí pouze toto kolo)","");
 
 //-----9-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[8],0,"BoardGame - CardsArt - Basic - 009");
-sc_card_mission_desc("","Hranice",0);
-sc_card_mission_desc_1("100 REUNŮ",1,0);
-sc_card_mission_desc_6("","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[8],"BoardGame - CardsArt - Basic - 009");
+makeMissionDesc("Hranice");
+makeMissionSetup("100 REUNŮ",1,0);
+makeMissionEffect("","");
 
 //-----10-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[9],0,"BoardGame - CardsArt - Basic - 010");
-sc_card_mission_desc("","Muzeum",0);
-sc_card_mission_desc_1("1 Element",2,0);
-sc_card_mission_desc_6("Zahraj 1 kolo navíc","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[9],"BoardGame - CardsArt - Basic - 010");
+makeMissionDesc("Muzeum");
+makeMissionSetup("1 Element",2,0);
+makeMissionEffect("Zahraj 1 kolo navíc","");
 
 
 //-----11-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[10],0,"BoardGame - CardsArt - Basic - 011");
-sc_card_mission_desc("","Trénink",0);
-sc_card_mission_desc_1("2 Energie",3,0);
-sc_card_mission_desc_6("Přidej si 2 Elementy","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[10],"BoardGame - CardsArt - Basic - 011");
+makeMissionDesc("Trénink");
+makeMissionSetup("2 Energie",3,0);
+makeMissionEffect("Přidej si 2 Elementy","");
 
 
 //-----12-----
-sc_card_missions_init(0,1);
-sc_card_mission_name(CardMissionBasic_Parent_Name[11],0,"BoardGame - CardsArt - Basic - 012");
-sc_card_mission_desc("","Stavitelství",0);
-sc_card_mission_desc_1("40 REUNŮ + 1 Energie",1,3);
-sc_card_mission_desc_6("Dej všechny vyložené karty do odkládacího balíčku a rozmísti si libovolně dalších 5","");
+makeMissionInit(0,1);
+makeMissionBase(basicNameParent[11],"BoardGame - CardsArt - Basic - 012");
+makeMissionDesc("Stavitelství");
+makeMissionSetup("40 REUNŮ + 1 Energie",1,3);
+makeMissionEffect("Dej všechny vyložené karty do odkládacího balíčku a rozmísti si libovolně dalších 5","");
 
 };
 

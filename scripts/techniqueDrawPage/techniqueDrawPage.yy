@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"techniqueDrawPage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"techniqueDrawPage",
+  "parent":{
+    "name":"Techniques",
+    "path":"folders/Scripts/Techniques.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
