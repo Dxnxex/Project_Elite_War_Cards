@@ -19,8 +19,8 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-  <img src="images/Page.png" alt="Page" style="width: 30%;">
-  <img src="images/CardBack.png" alt="CardBack" style="width: 30%;">
+  <img src="images/Page.png" alt="Page" style="width: 40%;">
+  <img src="images/CardBack.png" alt="CardBack" style="width: 40%;">
 </div>
 
 
