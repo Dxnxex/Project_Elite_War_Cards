@@ -13,7 +13,13 @@ Screnshot_DELAY_page_par = 4;
 Screnshot_DELAY_page = Screnshot_DELAY_page_par;
 
 //-----Scale-----
-globalvar RenderScale; RenderScale = 1.11;
+globalvar RenderScale; 
+
+RenderScale = 1.11;
+
+if CardNumber == 4 {RenderScale = 1};
+if CardNumber == 3 {RenderScale = 1.11};
+
 //-----Formats-----
 formatW = 3508;
 formatH = 2480;

@@ -8,7 +8,7 @@ eventNumberAll = -1;
 eventNumberMaxAll = 0;
 
 //Setup
-eventImage = spr_cardart_output_techniques;
+eventImage = spr_cardart_nothing;
 
 //-----1-----
 makeEventInit(1);
@@ -363,8 +363,6 @@ makeEventOption_1("Kdykoliv zamíchej balíček událostí\n(Kartu si nech dokud
 makeEventOption_2("Koukni se na [DVAKRÁT POČET HRÁČŮ] dalších\nkaret událostí a vrať je ve stejném pořadí","","Kouknu se na nadcházejicí mise.",1);
 makeEventOption_3("Koukni se na [POČET HRÁČŮ] karet\nudálostí a vrať je ve libovolném pořadí.","","",1);
 makeEventQuote("Co to je za poradce?");
-
-
 
 
 eventInitEnd();

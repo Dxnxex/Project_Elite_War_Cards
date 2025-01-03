@@ -13,7 +13,7 @@ function eventDraw(argument0,argument1,argument2){
 		var ImageScale = (((wsprite-Radius*2)/sprite_get_width(eventImage))*iscale);
 
 		//-----Cardback-----
-		_cardback_type = "Events";	
+		_cardback_type = "Event";	
 		
 		//------CARD Layout-----
 		draw_sprite_ext(sprite,0,posX+(wsprite/2)+lengthdir_x(0,0),posY+(hsprite/2)+lengthdir_y(0,0),CardScale,CardScale,rot,c_white,1);

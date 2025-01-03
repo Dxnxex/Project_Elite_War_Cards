@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"setScreenshotSurface",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Screenshot",
+    "path":"folders/Scripts/Screenshot.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

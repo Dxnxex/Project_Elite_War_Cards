@@ -4,8 +4,9 @@ globalvar CardWidth,CardHeight,ScreenshotW,ScreenshotH,CardScale, CardNumber;
 setCamera();
 
 //-----SETUP Global-----
-CardScale = 0.5;
-CardNumber = 4;
+CardScale = 1;
+CardNumber = 3;
+cardNumberSet = CardNumber;
 
 //-----Inits-----
 fontInit();
@@ -14,7 +15,7 @@ missionsInit();
 techniquesInit();
 eventsInit();
 screenshotsInit(); 
-sc_cardback_init();
+cardbackInit();
 
 //----SETUP FONT-----
 setTextSizeAndWidth(0,2000);

@@ -20,7 +20,7 @@ secureNumberAll = -1;
 secureNumberMaxAll = 0
 
 //Setup
-secureImage = spr_cardart_output_mission_secure;
+secureImage = spr_cardart_nothing;
 
 
 //-----1-----

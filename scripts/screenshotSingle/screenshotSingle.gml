@@ -26,6 +26,8 @@ if screenshot_start_single == 1 {
 				sabotageNumber=0;
 				techniqueNumber=0;
 				eventNumber=0;
+				
+				CardNumber = cardNumberSet;
 		
 		};
 		

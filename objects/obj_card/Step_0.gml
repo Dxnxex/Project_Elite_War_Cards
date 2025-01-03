@@ -33,24 +33,24 @@ if keyboard_check_pressed(ord("Z")) {eventNumberAll=0};
 
 
 if keyboard_check_direct(ord("W")) {
-	if mouse_wheel_up() && basicNumberAll<(basicNumberMaxAll-((CardNumber*CardNumber)-1)) {basicNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
-	if mouse_wheel_down() && basicNumberAll!=0 {basicNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && basicNumberAll<(basicNumberMaxAll-((CardNumber*CardNumber)-1)) {basicNumberAll+=(CardNumber*CardNumber);cardbackInit();};
+	if mouse_wheel_down() && basicNumberAll!=0 {basicNumberAll+=(CardNumber*CardNumber);cardbackInit();};
 }
 if keyboard_check_direct(ord("E")) {
-	if mouse_wheel_up() && secureNumberAll<(secureNumberMaxAll-((CardNumber*CardNumber)-1)) {secureNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
-	if mouse_wheel_down() && secureNumberAll!=0 {secureNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && secureNumberAll<(secureNumberMaxAll-((CardNumber*CardNumber)-1)) {secureNumberAll+=(CardNumber*CardNumber);cardbackInit();};
+	if mouse_wheel_down() && secureNumberAll!=0 {secureNumberAll+=(CardNumber*CardNumber);cardbackInit();};
 }
 if keyboard_check_direct(ord("R")) {
-	if mouse_wheel_up() && sabotageNumberAll<(sabotageNumberMaxAll-((CardNumber*CardNumber)-1)) {sabotageNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
-	if mouse_wheel_down() && sabotageNumberAll!=0 {sabotageNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && sabotageNumberAll<(sabotageNumberMaxAll-((CardNumber*CardNumber)-1)) {sabotageNumberAll+=(CardNumber*CardNumber);cardbackInit();};
+	if mouse_wheel_down() && sabotageNumberAll!=0 {sabotageNumberAll+=(CardNumber*CardNumber);cardbackInit();};
 }	
 if keyboard_check_direct(ord("T")) {
-	if mouse_wheel_up() && techniqueNumberAll<(techniqueNumberMaxAll-((CardNumber*CardNumber)-1)) {techniqueNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
-	if mouse_wheel_down() && techniqueNumberAll!=0 {techniqueNumberAll+=(CardNumber*CardNumber);sc_cardback_init();};
+	if mouse_wheel_up() && techniqueNumberAll<(techniqueNumberMaxAll-((CardNumber*CardNumber)-1)) {techniqueNumberAll+=(CardNumber*CardNumber);cardbackInit();};
+	if mouse_wheel_down() && techniqueNumberAll!=0 {techniqueNumberAll+=(CardNumber*CardNumber);cardbackInit();};
 }
 if keyboard_check_direct(ord("Z")) {
-	if mouse_wheel_up() && eventNumberAll<(eventNumberMaxAll-((CardNumber*CardNumber)-1)) {eventNumberAll+=(CardNumber*CardNumber);		sc_cardback_init();		};
-	if mouse_wheel_down() && eventNumberAll!=0						{eventNumberAll+=(CardNumber*CardNumber);		sc_cardback_init();		};
+	if mouse_wheel_up() && eventNumberAll<(eventNumberMaxAll-((CardNumber*CardNumber)-1)) {eventNumberAll+=(CardNumber*CardNumber);		cardbackInit();		};
+	if mouse_wheel_down() && eventNumberAll!=0						{eventNumberAll+=(CardNumber*CardNumber);		cardbackInit();		};
 }	
 
 }

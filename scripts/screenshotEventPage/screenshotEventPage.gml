@@ -5,8 +5,7 @@ repeat(eventMaxPages) {
 	for(var i=0;i<=1;i++) {
 		
 			//Init an surface
-			var surf, surfaceSprite;
-			surf = surface_create(ScreenshotW, ScreenshotH);
+			var surf = surface_create(ScreenshotW, ScreenshotH);
 			surface_set_target(surf);
 	
 			draw_clear_alpha(c_white,1);
@@ -14,12 +13,11 @@ repeat(eventMaxPages) {
 			draw_rectangle(0,0,ScreenshotW,ScreenshotH,0);
 	
 				//Image
-				if i==0 {Element=1;sc_card_events_draw_all()};
+				if i==0 {eventDrawPage();};
 				if i==1 {sc_card_cardback_draw_all(0);};
 
-	
 			//Create an sprite from surface 
-			surfaceSprite = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
+			var surfaceSprite = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
 			surface_reset_target();
 			surface_free(surf);
 	

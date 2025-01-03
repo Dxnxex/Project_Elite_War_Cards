@@ -8,7 +8,7 @@ techniqueNumberMaxAll = 0
 techniqueAdd = 0;
 
 //Setup
-techniqueImage = spr_cardart_output_techniques;
+techniqueImage = spr_cardart_nothing;
 
 
 //-----2-----

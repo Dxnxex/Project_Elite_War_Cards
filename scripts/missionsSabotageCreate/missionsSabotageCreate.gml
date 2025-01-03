@@ -7,7 +7,7 @@ sabotageNumberAll = -1;
 sabotageNumberMaxAll = 0
 
 //Setup
-sabotageImage = spr_cardart_output_mission_sabotage;
+sabotageImage = spr_cardart_nothing;
 
 //-----1-----
 makeMissionInit(2,1);

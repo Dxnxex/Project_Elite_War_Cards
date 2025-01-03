@@ -28,7 +28,7 @@ spritesInputs();
 cardNamesInputs();
 	
 //Card Type
-for(var i=0;i<9;i++) {Type[i] = spr_cardart_back_nothing};
+for(var i=0;i<9;i++) {Type[i] = spr_cardart_nothing};
 
 
 }

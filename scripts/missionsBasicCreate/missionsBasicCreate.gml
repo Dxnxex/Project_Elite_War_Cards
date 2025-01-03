@@ -20,7 +20,7 @@ basicNumberAll = -1;
 basicNumberMaxAll = 0
 
 //Setup
-basicImage = spr_cardart_output_mission_basic;
+basicImage = spr_cardart_nothing;
 
 //-----1-----
 makeMissionInit(0,1);

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"setStringQuoteUpper",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Text & Position",
+    "path":"folders/Scripts/GM_Custom/Text & Position.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

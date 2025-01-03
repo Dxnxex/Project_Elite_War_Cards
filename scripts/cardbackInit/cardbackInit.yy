@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"screenshotPage",
+  "%Name":"cardbackInit",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"screenshotPage",
+  "name":"cardbackInit",
   "parent":{
-    "name":"Screenshot",
-    "path":"folders/Scripts/Screenshot.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

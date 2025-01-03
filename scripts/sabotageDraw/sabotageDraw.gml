@@ -60,7 +60,7 @@ function sabotageDraw(argument0,argument1,argument2){
 			textShadowLess(string(sabotageMissionCorrespondention[i]),c_black);
 		
 			//-----Correspondention (EFEKT)-----
-			setFont(fo_V11_card_effect);	
+			setFont(fo_MissionEffect);	
 			setLenghtdir(335.00,-90);
 			setTextAlign(fa_top,fa_center);
 			textShadow(string(sabotageMissionEffect[i]),c_white);
