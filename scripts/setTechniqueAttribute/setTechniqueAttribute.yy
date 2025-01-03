@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_custom_draw_all",
+  "%Name":"setTechniqueAttribute",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_custom_draw_all",
+  "name":"setTechniqueAttribute",
   "parent":{
-    "name":"Custom",
-    "path":"folders/Scripts/Custom.yy",
+    "name":"Techniques",
+    "path":"folders/Scripts/Techniques.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

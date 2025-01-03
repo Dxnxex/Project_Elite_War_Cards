@@ -5,7 +5,6 @@ screenshotNumber = 0;
 Screenshot_DONE = 0;
 screenshot_start_single = 0;
 screenshot_start_ALL = 0;
-screenshot_start_CUSTOM = 0;
 
 Screnshot_DELAY_par = 2;
 Screnshot_DELAY = Screnshot_DELAY_par;
@@ -20,8 +19,8 @@ formatW = 3508;
 formatH = 2480;
 format_A4 = formatW/formatH;
 
-CardWidth = sprite_get_width(spriteParentSize);
-CardHeight = sprite_get_height(spriteParentSize);
+CardWidth = sprite_get_width(spriteParent);
+CardHeight = sprite_get_height(spriteParent);
 originFormat = CardWidth/CardHeight;
 
 formatCurrent = format_A4;

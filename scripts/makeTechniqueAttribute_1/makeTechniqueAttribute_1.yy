@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_techniques_prop_2",
+  "%Name":"makeTechniqueAttribute_1",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_techniques_prop_2",
+  "name":"makeTechniqueAttribute_1",
   "parent":{
     "name":"Techniques",
     "path":"folders/Scripts/Techniques.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_card_techniques_draw_specific_at_pos",
+  "%Name":"makeTechniqueAttribute_4",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_card_techniques_draw_specific_at_pos",
+  "name":"makeTechniqueAttribute_4",
   "parent":{
     "name":"Techniques",
     "path":"folders/Scripts/Techniques.yy",

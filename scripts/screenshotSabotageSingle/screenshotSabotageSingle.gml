@@ -4,8 +4,8 @@ repeat(sabotageNumberMax+1) {
 	
 			//-----Setup-----
 			Element=0;		
-			var cardW = sprite_get_width(spriteParentSize)*CardScale;
-			var cardH = sprite_get_height(spriteParentSize)*CardScale;
+			var cardW = sprite_get_width(spriteParent)*CardScale;
+			var cardH = sprite_get_height(spriteParent)*CardScale;
 			
 			//-----Surface-----
 			var surf = surface_create(cardW, cardH);
@@ -19,19 +19,19 @@ repeat(sabotageNumberMax+1) {
 			sabotageDrawSingle();
 	
 			//Create an sprite from surface 
-			var spr_custom = sprite_create_from_surface(surf, 0, 0, cardW, cardH, false, false, 0, 0);
+			var surfaceSprite = sprite_create_from_surface(surf, 0, 0, cardW, cardH, false, false, 0, 0);
 			surface_reset_target();
 			surface_free(surf);
 			
 	
 			//Take an screenshot of surface
 			sc_cardback_PDF_pre();
-			sprite_save(spr_custom, 0,string(working_directory+string("Single/")+string("Sabotage - ")+string(PDF_P_Add)+string(PDF_P)+string(".")+string("png")));		
+			sprite_save(surfaceSprite, 0,string(working_directory+string("Single/")+string("Sabotage - ")+string(PDF_P_Add)+string(PDF_P)+string(".")+string("png")));		
 			PDF_P++;sc_cardback_PDF_pre();
 
 
 			//Memory delete
-			sprite_delete(spr_custom);
+			sprite_delete(surfaceSprite);
 
 		sabotageNumber++;
 		

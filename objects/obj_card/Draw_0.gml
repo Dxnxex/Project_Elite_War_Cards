@@ -19,21 +19,11 @@ directory_destroy(working_directory+string("Page"));
 }
 
 
-//-----Screenshot CUSTOM-----
-if keyboard_check_pressed(keyScreenshotCustom) {
-	
-	screenshotReset();
-	screenshot_start_CUSTOM = 1;
-
-directory_destroy(working_directory+string("Custom"));
-
-}
 
 if screenshotNumber !=0 {
 
 screenshotSingle();
 screenshotPage();
-sc_screenshot_custom();
 
 
 }
@@ -62,7 +52,6 @@ if keyboard_check_direct(vk_control){
 	if keyboard_check_direct(keyTechniques) {techniqueDrawPage();};
 	if keyboard_check_direct(keyEvents)		{eventDrawPage();};
 	
-	if keyboard_check_direct(ord("U")) {sc_card_custom_draw_all();}
 	if keyboard_check_direct(ord("I")) {sc_card_cardback_draw_all(1);}
 
 }
@@ -73,14 +62,13 @@ draw_set_color(c_black);
 draw_set_font(fo_card);
 draw_text(mouse_x,mouse_y+64*1,string("S - Single (W/E/R/T/Z - Karta)"))
 draw_text(mouse_x,mouse_y+64*2,string("D - Page (W/E/R/T/Z/U/I - Strana)"));
-draw_text(mouse_x,mouse_y+64*3,string("F - Custom"));
 
 	draw_set_color(c_black);
 	draw_line(mouse_x-2000,mouse_y,mouse_x+2000,mouse_y);
 	draw_line(mouse_x,mouse_y-2000,mouse_x,mouse_y+2000);
 	
-	var cardW = sprite_get_width(spriteParentSize);
-	var cardH = sprite_get_height(spriteParentSize);
+	var cardW = sprite_get_width(spriteParent);
+	var cardH = sprite_get_height(spriteParent);
 	if mouse_check_button_pressed(mb_middle) {clipboard_set_text(string("setLenghtdir(")+string(point_distance(cardW/2,cardH/2,mouse_x,mouse_y))+string(",")+string(-360+point_direction(cardW/2,cardH/2,mouse_x,mouse_y))+string(");"));};
 	
 }

@@ -2,7 +2,7 @@ function spritesInputs(){
 
 
 	//-----sprite Variables
-	spriteParentSize = sprite_add(working_directory+string("Sprites/CoverOverlay"+string(".")+string("png")),0,0,1,0,0);
+	spriteParent = sprite_add(working_directory+string("Sprites/CoverOverlay"+string(".")+string("png")),0,0,1,0,0);
 	spriteSabotage = sprite_add(working_directory+string("Sprites/Sabotage"+string(".")+string("png")),0,0,1,0,0);
 	spriteSecure = sprite_add(working_directory+string("Sprites/Secure"+string(".")+string("png")),0,0,1,0,0);
 	spriteBasic = sprite_add(working_directory+string("Sprites/Basic"+string(".")+string("png")),0,0,1,0,0);
@@ -69,7 +69,7 @@ function spritesInputs(){
 	spriteTokenTechniqueAtributePush =			spriteAddToken("BoardGame - Token - Attributes - Push");
 	spriteTokenTechniqueAtributeRange =			spriteAddToken("BoardGame - Token - Attributes - Range");
 	spriteTokenTechniqueAtributeRecharge =		spriteAddToken("BoardGame - Token - Attributes - Recharge");
-	spriteTokenTechniqueAtributeScale =			spriteAddToken("BoardGame - Token - Attributes - RenderScale");
+	spriteTokenTechniqueAtributeScale =			spriteAddToken("BoardGame - Token - Attributes - Scale");
 	spriteTokenTechniqueAtributeSpeed =			spriteAddToken("BoardGame - Token - Attributes - Speed");
 	
 		//Wind

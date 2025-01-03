@@ -4,7 +4,7 @@ globalvar CardWidth,CardHeight,ScreenshotW,ScreenshotH,CardScale, CardNumber;
 setCamera();
 
 //-----SETUP Global-----
-CardScale = 1;
+CardScale = 0.5;
 CardNumber = 4;
 
 //-----Inits-----
@@ -13,10 +13,6 @@ cardInit();
 missionsInit();
 techniquesInit();
 eventsInit();
-
-// FIXME: Odstranit custom?
-sc_card_create_custom();
-
 screenshotsInit(); 
 
 //Card back
@@ -45,7 +41,6 @@ keyTechniques = ord("T");
 keyEvents = ord("Z");
 keyScreenshotSingle = ord("S");
 keyScreenshotPage = ord("D");
-keyScreenshotCustom = ord("F");
 
 
 //-----Generate JSON-----

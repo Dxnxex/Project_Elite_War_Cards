@@ -15,11 +15,5 @@ sabotageNumber = 0;
 sabotageNumberAll = 0;
 
 
-show_debug_message(basicNumber);
-show_debug_message(basicNumberAll);
-show_debug_message(basicNumberMax);
-show_debug_message(basicNumberMaxAll);
-show_debug_message(basicMaxPages);
-
 }
 

@@ -5,8 +5,7 @@ repeat(ctnMaxPages) {
 	for(var i=0;i<8;i++) {
 		
 			//Init an surface
-			var surf, spr_custom;
-			surf = surface_create(ScreenshotW, ScreenshotH);
+			var surf = surface_create(ScreenshotW, ScreenshotH);
 			surface_set_target(surf);
 	
 			draw_clear_alpha(c_white,1);
@@ -24,17 +23,17 @@ repeat(ctnMaxPages) {
 				if i==7 {sc_card_cardback_draw_all(4);};
 	
 			//Create an sprite from surface 
-			spr_custom = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
+			var surfaceSprite = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
 			surface_reset_target();
 			surface_free(surf);
 	
 			//Take an screenshot of surface
 			sc_cardback_PDF_pre();
-			if (i<4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_P_Add)+string(PDF_P)+string("_P."+string("png"))))		;PDF_P++;sc_cardback_PDF_pre();}
-			if (i>=4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_Z_Add)+string(PDF_Z)+string("_Z."+string("png"))))		;PDF_Z++;sc_cardback_PDF_pre();}
+			if (i<4) {sprite_save(surfaceSprite, 0,string(working_directory+string("Page/")+string(PDF_P_Add)+string(PDF_P)+string("_P."+string("png"))))		;PDF_P++;sc_cardback_PDF_pre();}
+			if (i>=4) {sprite_save(surfaceSprite, 0,string(working_directory+string("Page/")+string(PDF_Z_Add)+string(PDF_Z)+string("_Z."+string("png"))))		;PDF_Z++;sc_cardback_PDF_pre();}
 
 			//Memory delete
-			sprite_delete(spr_custom);
+			sprite_delete(surfaceSprite);
 	
 		};
 		techniquesNumberAll+=(CardNumber*CardNumber);

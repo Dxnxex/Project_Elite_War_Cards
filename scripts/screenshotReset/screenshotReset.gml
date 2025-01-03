@@ -14,10 +14,9 @@ function screenshotReset(){
 	techniquesNumberAll=0;
 	eventNumberAll=0;
 	
-	// FIXME: Roztřídit
+	//Reset
 	screenshot_start_single = 0;
 	screenshot_start_ALL = 0;
-	screenshot_start_CUSTOM = 0;	
 
 	//All
 	screenshotNumber = 1;
