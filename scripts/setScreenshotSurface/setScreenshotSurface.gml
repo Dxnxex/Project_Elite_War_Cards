@@ -6,7 +6,7 @@ if CardNumber!=1 {
 	show_debug_message("Start - Screenshots - Page");
 	
 	
-	switch(screenshot_start) {
+	switch(screenshotNumber) {
 		
 		
 
@@ -23,7 +23,7 @@ if CardNumber!=1 {
 	
 	show_debug_message("Choose - Screenshots - Single");
 	
-	switch(screenshot_start) {
+	switch(screenshotNumber) {
 
 		case 1: screenshotBasicSingle(); break; 	
 		case 2: screenshotSecureSingle(); break; 	

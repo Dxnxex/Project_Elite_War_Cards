@@ -1,39 +1,18 @@
 //-----Screenshot-----
 if keyboard_check_pressed(ord("S")) {
 	
-	cardMissionBasicNumber=0;
-	cardMissionSecureNumber=0;
-	cardMissionSabotageNumber=0;
-	techniqueNumber=0;
-	card_event_number=0;
-	
-	screenshot_start = 1;
+	screenshotReset();
 	screenshot_start_single = 1;
 	
-	PDF_P = 1;
-
 directory_destroy(working_directory+string("Single"));
 
 }
 
 //-----Screenshot ALL-----
-if keyboard_check_pressed(ord("D")) && PDFReady == 0 {
+if keyboard_check_pressed(ord("D"))  {
 	
-	CardMissionNumberAll=0;
-	cardMissionBasicNumberAll=0;
-	cardMissionSecureNumberAll=0;
-	cardMissionSabotageNumberAll=0;
-	ctnAll=0;
-	card_event_numberAll=0;
-	
-	Screenshot_DONE = 0;
-	PDF_P = 1;
-	PDF_Z = 1;
-	
-screenshot_start = 1;
-screenshot_start_ALL = 1;
-Element = 1;
-
+	screenshotReset();
+	screenshot_start_ALL = 1;
 
 directory_destroy(working_directory+string("Page"));
 
@@ -43,25 +22,14 @@ directory_destroy(working_directory+string("Page"));
 //-----Screenshot CUSTOM-----
 if keyboard_check_pressed(ord("F")) {
 	
-	CardMissionNumberAll=0;
-	cardMissionBasicNumberAll=0;
-	cardMissionSecureNumberAll=0;
-	cardMissionSabotageNumberAll=0;
-	ctnAll=0;
-	card_event_numberAll=0;
-	
-	Screenshot_DONE = 0;
-	PDF_P = 1;
-	PDF_Z = 1;
-	
-screenshot_start = 1;
-screenshot_start_CUSTOM = 1;
+	screenshotReset();
+	screenshot_start_CUSTOM = 1;
 
 directory_destroy(working_directory+string("Custom/"));
 
 }
 
-if screenshot_start !=0 {
+if screenshotNumber !=0 {
 
 sc_screenshot_single();
 sc_screenshot_page();
@@ -73,7 +41,7 @@ sc_screenshot_custom();
 
 
 //While not screenshoting
-if screenshot_start==0 {
+if screenshotNumber==0 {
 
 //-----SINGLE-----
 if !keyboard_check_direct(vk_control){

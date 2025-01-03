@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"SecureCardMissionDraw",
+  "%Name":"screenshotReset",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SecureCardMissionDraw",
+  "name":"screenshotReset",
   "parent":{
-    "name":"Draw",
-    "path":"folders/Scripts/Mission/Draw.yy",
+    "name":"Custom",
+    "path":"folders/Scripts/Custom.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

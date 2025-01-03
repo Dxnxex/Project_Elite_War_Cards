@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"SecureCardMissionDraw",
+  "%Name":"techniquesDraw",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SecureCardMissionDraw",
+  "name":"techniquesDraw",
   "parent":{
-    "name":"Draw",
-    "path":"folders/Scripts/Mission/Draw.yy",
+    "name":"Techniques",
+    "path":"folders/Scripts/Techniques.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

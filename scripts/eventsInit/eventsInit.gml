@@ -1,11 +1,11 @@
 
 function eventsInit(){
 
-card_event_number = -1;
+eventNumber = -1;
 card_event_numberMax = 0;
 CardEventsImage = spr_cardart_output_techniques;
 
-card_event_numberAll = -1;
+eventNumberAll = -1;
 card_event_numberMaxAll = 0;
 
 //-----1-----

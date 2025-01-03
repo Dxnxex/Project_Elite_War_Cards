@@ -37,7 +37,7 @@ repeat(cardMissionSecureNumberMaxPages) {
 			sprite_delete(spr_custom);
 	
 		};
-		cardMissionSecureNumberAll+=(CardNumber*CardNumber);
+		secureNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

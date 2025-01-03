@@ -33,7 +33,7 @@ repeat(cardMissionSecureNumberMax+1) {
 			//Memory delete
 			sprite_delete(spr_custom);
 
-		cardMissionSecureNumber++;
+		secureNumber++;
 		
 	};
 	

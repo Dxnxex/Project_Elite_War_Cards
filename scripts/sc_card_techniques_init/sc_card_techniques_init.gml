@@ -6,14 +6,14 @@ function sc_card_techniques_init(argument0){
 techniqueNumber++;
 ctnMax=techniqueNumber;
 
-ctnAll++;
-ctnMaxAll=ctnAll;
+techniquesNumberAll++;
+ctnMaxAll=techniquesNumberAll;
 
 
 	//Edition
 	var Edition = "";
 	switch(argument0) {
-		case 1: Edition = "Originální edice"; break;
+		case 1: Edition = "Originální Edition"; break;
 		case 2: Edition = "První rozšíření"; break;
 		default: Edition = "ERROR"; break;
 	}

@@ -13,11 +13,11 @@
 
 function missionsSabotageCreate(){
 
-cardMissionSabotageNumber = -1;
+sabotageNumber = -1;
 cardMissionSabotageNumberMax = 0;
 CardMissionSabotage_Image = spr_cardart_output_mission_sabotage;
 
-cardMissionSabotageNumberAll = -1;
+sabotageNumberAll = -1;
 cardMissionSabotageNumberMaxAll = 0
 
 

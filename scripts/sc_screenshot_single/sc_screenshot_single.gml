@@ -5,27 +5,27 @@ if screenshot_start_single == 1 {
 
 		CardNumber = 1;
 				
-		if screenshot_start == 1 {show_debug_message(string("Start #1 - Basic missions | "));		setScreenshotSurface();screenshot_start++;};
-		if screenshot_start == 2 {show_debug_message(string("Start #2 - Secure missions | ") );		setScreenshotSurface();screenshot_start++;};
-		if screenshot_start == 3 {show_debug_message(string("Start #3 - Sabotage missions | ") );	setScreenshotSurface();screenshot_start++;};
-		if screenshot_start == 4 {show_debug_message(string("Start #4 - Techniques | "));			setScreenshotSurface();screenshot_start++;};
-		if screenshot_start == 5 {show_debug_message(string("Start #5 - Events | "));				setScreenshotSurface();screenshot_start++;};
-		if screenshot_start == 6 {show_debug_message("END");screenshot_start=-1;};				
+		if screenshotNumber == 1 {show_debug_message(string("Start #1 - Basic missions | "));		setScreenshotSurface();screenshotNumber++;};
+		if screenshotNumber == 2 {show_debug_message(string("Start #2 - Secure missions | ") );		setScreenshotSurface();screenshotNumber++;};
+		if screenshotNumber == 3 {show_debug_message(string("Start #3 - Sabotage missions | ") );	setScreenshotSurface();screenshotNumber++;};
+		if screenshotNumber == 4 {show_debug_message(string("Start #4 - Techniques | "));			setScreenshotSurface();screenshotNumber++;};
+		if screenshotNumber == 5 {show_debug_message(string("Start #5 - Events | "));				setScreenshotSurface();screenshotNumber++;};
+		if screenshotNumber == 6 {show_debug_message("END");screenshotNumber=-1;};				
 
 		var T_Offset = 0;
 
-		if screenshot_start == -1 {
+		if screenshotNumber == -1 {
 			
 			show_debug_message("END");
-			screenshot_start=0;
+			screenshotNumber=0;
 			screenshot_start_single = 0;
 			
 				//-----RE-INIT-----
-				cardMissionBasicNumber=0;
-				cardMissionSecureNumber=0;
-				cardMissionSabotageNumber=0;
+				basicNumber=0;
+				secureNumber=0;
+				sabotageNumber=0;
 				techniqueNumber=0;
-				card_event_number=0;
+				eventNumber=0;
 		
 		};
 		

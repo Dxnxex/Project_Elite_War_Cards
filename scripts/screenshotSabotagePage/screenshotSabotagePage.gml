@@ -37,7 +37,7 @@ repeat(cardMissionSabotageNumberMaxPages) {
 			sprite_delete(spr_custom);
 	
 		};
-		cardMissionSabotageNumberAll+=(CardNumber*CardNumber);
+		sabotageNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

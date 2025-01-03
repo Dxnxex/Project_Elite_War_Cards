@@ -17,14 +17,14 @@ var ImageScale = ((wsprite-Radius*2)/sprite_get_width(CardMissionSabotage_Image)
 if i <= cardMissionSabotageNumberMaxAll {
 
 
-		//-----OBRÁZEK-----
+		//-----Image-----
 		setLenghtdir(380,90); draw_sprite_ext(CardSabotage_ImageOut[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),ImageScale,ImageScale,rot,c_white,1);
 
 		//------CARD Layout-----
 		draw_sprite_ext(sprite,0,posX+(wsprite/2)+lengthdir_x(0,0),posY+(hsprite/2)+lengthdir_y(0,0),1,1,rot,c_white,1);
 	
 		//-----Název karty-----
-		setFont(fo_mission_name); setLenghtdir(796.50,-269.89); setTextAlign(fa_middle,fa_center); sc_card_text_shadow_less(string_upper(CardMissionSabotage_Name[i]),c_black);
+		setFont(fo_mission_name); setLenghtdir(796.50,-269.89); setTextAlign(fa_middle,fa_center); textShadowLess(string_upper(CardMissionSabotage_Name[i]),c_black);
 		 
 	
 	#region MISE (TOKEN & POPIS)
@@ -33,13 +33,13 @@ if i <= cardMissionSabotageNumberMaxAll {
 		
 		//-----MISE TOKEN-----
 		setLenghtdir(521.52,-179.51);
-		if CardMissionSabotage_DescType[i] !=2 {draw_sprite_ext(CardMissionSabotage_TextMainTokenElement[i,Element],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);} else 
+		if CardMissionSabotage_DescType[i] !=2 {draw_sprite_ext(CardMissionSabotage_TextMainToken[i,Element],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);} else 
 		{draw_sprite_ext(CardMissionSabotage_TextMainToken[i],0,posX+(wsprite/2)+lengthdir_x(pos,rot+angle),posY+(hsprite/2)+lengthdir_y(pos,rot+angle),tscale,tscale,rot,c_white,1);}
 		sc_cirle();
 		
 		//-----MISE POPIS-----
 		setFont(fontMissionTitle);	setTextAlign(fa_middle,fa_center);		setLenghtdir(6.52,-85.60);
-		sc_card_text_shadow_less(CardMissionSabotage_TextMain[i],c_black);
+		textShadowLess(CardMissionSabotage_TextMain[i],c_black);
 	
 	#endregion
 
@@ -53,13 +53,13 @@ if i <= cardMissionSabotageNumberMaxAll {
 
 		//-----Text Element & Energie-----
 		setFont(fo_mission_reward);	setTextAlign(fa_middle,fa_left);	setLenghtdir(402.13,-155.70);
-		if CardMissionSabotage_Desc_2_Check[i] == 1 {sc_card_text_shadow(CardMissionSabotage_Desc_2_Action[i],c_white);};
-		if CardMissionSabotage_Desc_3_Check[i] == 1 {sc_card_text_shadow(CardMissionSabotage_Desc_3_Action[i],c_white);};
+		if CardMissionSabotage_Desc_2_Check[i] == 1 {textShadow(CardMissionSabotage_Desc_2_Action[i],c_white);};
+		if CardMissionSabotage_Desc_3_Check[i] == 1 {textShadow(CardMissionSabotage_Desc_3_Action[i],c_white);};
 		sc_cirle();
 		
 		//----TEXT - REUNY-----
 		setFont(fo_mission_reward);	setTextAlign(fa_middle,fa_right);	setLenghtdir(432.81,-22.62);
-		sc_card_text_shadow(CardMissionSabotage_Desc_1[i],c_white);
+		textShadow(CardMissionSabotage_Desc_1[i],c_white);
 
 		//----TOKEN - Reuny -----
 		setLenghtdir(528.10,-18.26);
@@ -75,7 +75,7 @@ if i <= cardMissionSabotageNumberMaxAll {
 		
 	//-----Vlastník karty (Předat či ponechat)-----
 	setFont(fo_mission_owner);	 setTextAlign(fa_middle,fa_center);		setLenghtdir(165.51,-90.00);
-	sc_card_text_shadow(string_upper(CardMissionSabotage_DescAfterText[i]),c_white);
+	textShadow(string_upper(CardMissionSabotage_DescAfterText[i]),c_white);
 	
 	#endregion
 
@@ -83,7 +83,7 @@ if i <= cardMissionSabotageNumberMaxAll {
 				
 	//Po obdržení karty (AFTER)
 	setFont(fo_mission_after);	setTextAlign(fa_middle,fa_left);	setLenghtdir(487.35,-138.41);
-	sc_card_text_shadow(CardMissionSabotage_Desc_5[i],c_white);
+	textShadow(CardMissionSabotage_Desc_5[i],c_white);
 
 	//-----TOKEN AFTER-----
 	setLenghtdir(572.07,-145.68);
@@ -96,19 +96,19 @@ if i <= cardMissionSabotageNumberMaxAll {
 
 	//Efekt - TEXT
 	setFont(fo_mission_main);	setTextAlign(fa_top,fa_center);	setLenghtdir(421.50,-90.00);
-	sc_card_text_shadow(CardMissionSabotage_Desc_4[i],c_white);			
+	textShadow(CardMissionSabotage_Desc_4[i],c_white);			
 
 	#endregion
 
-		#region EDICE & INFO
+		#region Edition & Info
 
 			//-----Edition-----
 			setFont(fo_mission_info); setLenghtdir(964,-58.01);		setTextAlign(fa_middle,fa_right);
-			sc_card_text_shadow(string_upper(CardMissionSabotage_Edition[i]),c_white);
+			textShadow(string_upper(CardMissionSabotage_Edition[i]),c_white);
 	
 			//-----Info-----
 			setFont(fo_mission_info); setLenghtdir(958,-121.52);		setTextAlign(fa_middle,fa_left);
-			sc_card_text_shadow(string_upper(CardMissionSabotage_Info[i]),c_white)
+			textShadow(string_upper(CardMissionSabotage_Info[i]),c_white)
 	
 		#endregion
 

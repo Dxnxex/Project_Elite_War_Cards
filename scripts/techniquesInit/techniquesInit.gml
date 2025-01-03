@@ -5,7 +5,7 @@ ctnAdd = 0;
 card_technique_numberMax = 0;
 card_technique_image = spr_cardart_output_techniques;
 
-ctnAll = -1;
+techniquesNumberAll = -1;
 ctnMaxAll = 0;
 
 

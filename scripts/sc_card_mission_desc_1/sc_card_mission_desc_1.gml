@@ -36,25 +36,25 @@ _pre = "HLAVNÍ MISE: ";
 
 #region Basic
 if CardMissionType == 0 {
-	CardMissionBasic_Desc_1[cardMissionBasicNumber] = _pre+string_upper(argument0);
-	CardMissionBasic_6_Token_1[cardMissionBasicNumber] = tokenLeft;
-	CardMissionBasic_6_Token_2[cardMissionBasicNumber] = tokenRight;
+	CardMissionBasic_Desc_1[basicNumber] = _pre+string_upper(argument0);
+	CardMissionBasic_6_Token_1[basicNumber] = tokenLeft;
+	CardMissionBasic_6_Token_2[basicNumber] = tokenRight;
 }
 #endregion
 
 #region Secure
 if CardMissionType == 1 {
-	CardMissionSecure_Desc_1[cardMissionSecureNumber] = _pre+string_upper(argument0);
-	CardMissionSecure_6_Token_1[cardMissionSecureNumber] = tokenLeft;
-	CardMissionSecure_6_Token_2[cardMissionSecureNumber] = tokenRight;
+	CardMissionSecure_Desc_1[secureNumber] = _pre+string_upper(argument0);
+	CardMissionSecure_6_Token_1[secureNumber] = tokenLeft;
+	CardMissionSecure_6_Token_2[secureNumber] = tokenRight;
 }
 #endregion
 
 #region Sabotage
 if CardMissionType == 2 {
-	CardMissionSabotage_Desc_1[cardMissionSabotageNumber] = _pre+string_upper(argument0);
-	CardMissionSabotage_6_Token_1[cardMissionSabotageNumber] = tokenLeft;
-	CardMissionSabotage_6_Token_2[cardMissionSabotageNumber] = tokenRight;
+	CardMissionSabotage_Desc_1[sabotageNumber] = _pre+string_upper(argument0);
+	CardMissionSabotage_6_Token_1[sabotageNumber] = tokenLeft;
+	CardMissionSabotage_6_Token_2[sabotageNumber] = tokenRight;
 }
 #endregion
 }

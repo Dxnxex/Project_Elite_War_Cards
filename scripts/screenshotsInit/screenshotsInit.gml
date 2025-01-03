@@ -1,7 +1,7 @@
 
 function screenshotsInit(){
 
-screenshot_start = 0;
+screenshotNumber = 0;
 Screenshot_DONE = 0;
 screenshot_start_single = 0;
 screenshot_start_ALL = 0;

@@ -37,7 +37,7 @@ repeat(ctnMaxPages) {
 			sprite_delete(spr_custom);
 	
 		};
-		ctnAll+=(CardNumber*CardNumber);
+		techniquesNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

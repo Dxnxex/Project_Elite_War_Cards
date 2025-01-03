@@ -6,6 +6,6 @@ ctnMaxPages = ceil(((ctnMaxAll+1)/(CardNumber*CardNumber)));
 
 
 techniqueNumber = 0;
-ctnAll = 0;
+techniquesNumberAll = 0;
 }
 

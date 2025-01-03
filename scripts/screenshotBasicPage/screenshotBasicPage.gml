@@ -36,7 +36,7 @@ repeat(cardMissionBasicNumberMaxPages) {
 			sprite_delete(spr_custom);
 	
 		};
-		cardMissionBasicNumberAll+=(CardNumber*CardNumber);
+		basicNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

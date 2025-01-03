@@ -4,7 +4,7 @@ globalvar CardWidth,CardHeight,ScreenshotW,ScreenshotH,CardScale, CardNumber;
 setCamera();
 
 //-----SETUP Global-----
-CardScale = 1;
+CardScale = 0.1;
 CardNumber = 4;
 
 //-----Inits-----

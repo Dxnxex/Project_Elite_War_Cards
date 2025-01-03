@@ -17,7 +17,7 @@ basicNameCreate("Přeprava exponátů pro numa");
 basicNameCreate("Zkoušejicí u školních zkoušek");
 basicNameCreate("Dohled u výstavby");
 
-secureNameCreate("Upevnění pozice strážce");
+secureNameCreate("Upevnění Position strážce");
 secureNameCreate("Ochrana obchodní cesty");
 secureNameCreate("Obrana hraničního přechodu");
 secureNameCreate("Artefakt");

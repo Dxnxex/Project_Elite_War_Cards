@@ -5,7 +5,6 @@ Element = 0;
 ElementTXT = "";
 
 //-----Adding number to screenshot output-----
-PDFReady = 0;
 PDF_P = 1;
 PDF_P_Add = "";
 PDF_Z = 1;

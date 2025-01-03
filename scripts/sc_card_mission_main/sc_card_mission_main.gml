@@ -4,7 +4,7 @@ var i;
 
 if CardMissionType == 0 {
 	
-	CardMissionBasic_TextMainToken[cardMissionBasicNumber] = spriteTokenError;
+	CardMissionBasic_TextMainToken[basicNumber] = spriteTokenError;
 	
 	
 	i =  "Hlavní město";
@@ -53,7 +53,7 @@ if CardMissionType == 0 {
 
 if CardMissionType == 1 {
 	
-	CardMissionSecure_TextMainToken[cardMissionSecureNumber] = spriteTokenError;
+	CardMissionSecure_TextMainToken[secureNumber] = spriteTokenError;
 	
 	i =  "Hlavní město";
 	missionSecureGetToken(i,0,spriteTokenAllCity);
@@ -105,7 +105,7 @@ if CardMissionType == 1 {
 if CardMissionType == 2 {
 	
 	
-	CardMissionSabotage_TextMainToken[cardMissionSabotageNumber] = spriteTokenError;
+	CardMissionSabotage_TextMainToken[sabotageNumber] = spriteTokenError;
 	
 	i = "Hlavní město";
 	missionSabotageGetToken(i,spriteTokenAllCity);

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SabotageCardMissionDraw",
   "parent":{
-    "name":"Missions",
-    "path":"folders/Scripts/Mission/Missions.yy",
+    "name":"Draw",
+    "path":"folders/Scripts/Mission/Draw.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

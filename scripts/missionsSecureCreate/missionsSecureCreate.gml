@@ -13,11 +13,11 @@
 
 function missionsSecureCreate(){
 
-cardMissionSecureNumber = -1;
+secureNumber = -1;
 cardMissionSecureNumberMax = 0;
 CardMissionSecure_Image = spr_cardart_output_mission_secure;
 
-cardMissionSecureNumberAll = -1;
+secureNumberAll = -1;
 cardMissionSecureNumberMaxAll = 0
 
 

@@ -32,7 +32,7 @@ repeat(_card_event_numbermaxpages) {
 			sprite_delete(spr_custom);
 	
 		};
-		card_event_numberAll+=(CardNumber*CardNumber);
+		eventNumberAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

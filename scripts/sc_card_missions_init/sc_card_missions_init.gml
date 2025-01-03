@@ -7,45 +7,45 @@ function sc_card_missions_init(argument0,argument1){
 CardMissionType = argument0;
 
 var Edition = "";
-if argument1 == 1 {Edition = "Originální Edice"}
+if argument1 == 1 {Edition = "Originální Edition"}
 
 
 #region Basic
 if CardMissionType == 0 {
 	
-cardMissionBasicNumber++;
-cardMissionBasicNumberAll++;
+basicNumber++;
+basicNumberAll++;
 
-cardMissionBasicNumberMax=cardMissionBasicNumber;
-cardMissionBasicNumberMaxAll=cardMissionBasicNumberAll;
-CardMissionBasic_Info[cardMissionBasicNumber] = string("MB#")+string(cardMissionBasicNumber+1);
-CardMissionBasic_Edition[cardMissionBasicNumber] = Edition;
+cardMissionBasicNumberMax=basicNumber;
+cardMissionBasicNumberMaxAll=basicNumberAll;
+CardMissionBasic_Info[basicNumber] = string("MB#")+string(basicNumber+1);
+CardMissionBasic_Edition[basicNumber] = Edition;
 }
 #endregion
 
 #region Secure
 if CardMissionType == 1 {
 	
-cardMissionSecureNumber++;
-cardMissionSecureNumberAll++;
+secureNumber++;
+secureNumberAll++;
 
-cardMissionSecureNumberMax=cardMissionSecureNumber;
-cardMissionSecureNumberMaxAll=cardMissionSecureNumberAll;
-CardMissionSecure_Info[cardMissionSecureNumber] = string("MP#")+string(cardMissionSecureNumber+1);
-CardMissionSecure_Edition[cardMissionSecureNumber] = Edition;
+cardMissionSecureNumberMax=secureNumber;
+cardMissionSecureNumberMaxAll=secureNumberAll;
+CardMissionSecure_Info[secureNumber] = string("MP#")+string(secureNumber+1);
+CardMissionSecure_Edition[secureNumber] = Edition;
 }
 #endregion
 
 #region Sabotage
 if CardMissionType == 2 {
 	
-cardMissionSabotageNumber++;
-cardMissionSabotageNumberAll++;
+sabotageNumber++;
+sabotageNumberAll++;
 
-cardMissionSabotageNumberMax=cardMissionSabotageNumber;
-cardMissionSabotageNumberMaxAll=cardMissionSabotageNumberAll;
-CardMissionSabotage_Info[cardMissionSabotageNumber] = string("MS#")+string(cardMissionSabotageNumber+1);
-CardMissionSabotage_Edition[cardMissionSabotageNumber] = Edition;
+cardMissionSabotageNumberMax=sabotageNumber;
+cardMissionSabotageNumberMaxAll=sabotageNumberAll;
+CardMissionSabotage_Info[sabotageNumber] = string("MS#")+string(sabotageNumber+1);
+CardMissionSabotage_Edition[sabotageNumber] = Edition;
 }
 #endregion
 

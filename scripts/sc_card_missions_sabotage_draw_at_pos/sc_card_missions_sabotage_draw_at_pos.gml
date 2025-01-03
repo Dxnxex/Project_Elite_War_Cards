@@ -14,7 +14,7 @@ posX = (cardSpaceX*argument1-wsprite)-((CardWidth*CardScale)*1-wsprite)/2;
 posY = (cardSpaceY*argument0-hsprite)-((CardHeight*CardScale)*1-hsprite)/2;
 
 //Image Placement
-var i = (cardMissionSabotageNumberAll+(argument0-1)+CardNumber*(argument1-1));
+var i = (sabotageNumberAll+(argument0-1)+CardNumber*(argument1-1));
 
 
 	//Draw the card/s

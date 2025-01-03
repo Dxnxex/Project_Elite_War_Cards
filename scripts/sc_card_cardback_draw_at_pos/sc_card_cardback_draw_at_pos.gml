@@ -14,11 +14,11 @@ var _positionNumber = (argument0+argument1-1)+((CardNumber-1)*(argument1-1));
 
 var _pass = 0;
 
-if _cardback_type == "Basic"			&& cardbackShowBasic[_positionNumber+cardMissionBasicNumberAll-1]!=noone			{_pass=1};
-if _cardback_type == "Secure"			&& cardbackShowSecure[_positionNumber+cardMissionSecureNumberAll-1]!=noone			{_pass=1};
-if _cardback_type == "Sabotage"			&& cardbackShowSabotage[_positionNumber+cardMissionSabotageNumberAll-1]!=noone		{_pass=1};
-if _cardback_type == "Techniques"		&& cardbackShowTechnique[_positionNumber+ctnAll-1]!=noone							{_pass=1};
-if _cardback_type == "Event"			&& cardbackShowEvent[_positionNumber+card_event_numberAll-1]!=noone					{_pass=1};
+if _cardback_type == "Basic"			&& cardbackShowBasic[_positionNumber+basicNumberAll-1]!=noone			{_pass=1};
+if _cardback_type == "Secure"			&& cardbackShowSecure[_positionNumber+secureNumberAll-1]!=noone			{_pass=1};
+if _cardback_type == "Sabotage"			&& cardbackShowSabotage[_positionNumber+sabotageNumber-1]!=noone		{_pass=1};
+if _cardback_type == "Techniques"		&& cardbackShowTechnique[_positionNumber+techniquesNumberAll-1]!=noone							{_pass=1};
+if _cardback_type == "Event"			&& cardbackShowEvent[_positionNumber+eventNumberAll-1]!=noone					{_pass=1};
 
 	if _cardback_type!=noone {
 		if _pass==1 {

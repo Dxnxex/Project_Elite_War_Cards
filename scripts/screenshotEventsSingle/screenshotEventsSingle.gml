@@ -33,7 +33,7 @@ repeat(card_event_numberMaxAll+1) {
 			//Memory delete
 			sprite_delete(spr_custom);
 
-		card_event_number++;
+		eventNumber++;
 		
 	};
 	

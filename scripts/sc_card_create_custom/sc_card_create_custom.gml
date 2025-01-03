@@ -26,9 +26,4 @@ sc_card_create_custom_choose("X",6,2);
 //X = Nic
 
 
-
-
-
-
-
 }

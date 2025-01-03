@@ -14,11 +14,11 @@
 function missionsBasicCreate(){
 
 CardMissionNumber = 0;
-cardMissionBasicNumber = -1;
+basicNumber = -1;
 cardMissionBasicNumberMax = 0;
 CardMissionBasic_Image = spr_cardart_output_mission_basic;
 
-cardMissionBasicNumberAll = -1;
+basicNumberAll = -1;
 cardMissionBasicNumberMaxAll = 0
 
 
