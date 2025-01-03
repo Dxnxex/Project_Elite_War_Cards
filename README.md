@@ -12,12 +12,14 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 - **Podpora různých barev elementů**: Každý element může mít jinou barvu, což umožňuje tisknout více variant s minimálními změnami.
 
 
+<img src="images/Basic.png" width=60% height=60%>
+<img src="images/Secure.png" width=60% height=60%>
+<img src="images/Technique.png" width=60% height=60%>
+<img src="images/Event.png" width=60% height=60%>
 
-![A4 Formát](images/Page.png)
-![A4 Formát](images/CardBack.png)
+<img src="images/Page.png" width=60% height=60%>
+<img src="images/CardBack.png" width=60% height=60%>
 
-
-<img src="images/Basic.png" width=10% height=10%>
 
 
 ## Poznámka
