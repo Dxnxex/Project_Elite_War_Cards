@@ -1,30 +1,30 @@
-function scSurfaceScreenshotSabotageMission(){
+function screenshotTechniquesPage(){
 
-repeat(cardMissionSabotageNumberMaxPages) {
+repeat(ctnMaxPages) {
 	
 	for(var i=0;i<8;i++) {
 		
 			//Init an surface
 			var surf, spr_custom;
-			surf = surface_create(getScreenshotWidth(), getScreenshotHeight());
+			surf = surface_create(ScreenshotW, ScreenshotH);
 			surface_set_target(surf);
 	
 			draw_clear_alpha(c_white,1);
 			draw_set_color(c_white);
-			draw_rectangle(0,0,getScreenshotWidth(),getScreenshotHeight(),0);
+			draw_rectangle(0,0,ScreenshotW,ScreenshotH,0);
 	
 				//Image
-				if i==0 {Element=1;sc_card_missions_sabotage_draw_all()};
-				if i==1 {Element=2;sc_card_missions_sabotage_draw_all()};
-				if i==2 {Element=3;sc_card_missions_sabotage_draw_all()};
-				if i==3 {Element=4;sc_card_missions_sabotage_draw_all()};
+				if i==0 {Element=1;sc_card_techniques_draw_all()};
+				if i==1 {Element=2;sc_card_techniques_draw_all()};
+				if i==2 {Element=3;sc_card_techniques_draw_all()};
+				if i==3 {Element=4;sc_card_techniques_draw_all()};
 				if i==4 {sc_card_cardback_draw_all(1);};
 				if i==5 {sc_card_cardback_draw_all(2);};
 				if i==6 {sc_card_cardback_draw_all(3);};
 				if i==7 {sc_card_cardback_draw_all(4);};
 	
 			//Create an sprite from surface 
-			spr_custom = sprite_create_from_surface(surf, 0, 0, getScreenshotWidth(), getScreenshotHeight(), false, false, 0, 0);
+			spr_custom = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
 			surface_reset_target();
 			surface_free(surf);
 	
@@ -37,7 +37,7 @@ repeat(cardMissionSabotageNumberMaxPages) {
 			sprite_delete(spr_custom);
 	
 		};
-		cardMissionSabotageNumberAll+=(CardNumber*CardNumber);
+		ctnAll+=(CardNumber*CardNumber);
 		
 	};
 	Element=0;

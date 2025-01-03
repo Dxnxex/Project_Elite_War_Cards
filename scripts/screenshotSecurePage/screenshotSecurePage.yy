@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"screenshotSecurePage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screenshotSecurePage",
+  "parent":{
+    "name":"Screenshot",
+    "path":"folders/Scripts/Screenshot.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

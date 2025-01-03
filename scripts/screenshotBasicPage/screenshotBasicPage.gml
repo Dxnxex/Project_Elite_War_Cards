@@ -1,17 +1,16 @@
-function scSurfaceScreenshotBasicMission(){
+function screenshotBasicPage(){
 
 repeat(cardMissionBasicNumberMaxPages) {
 	
 	for(var i=0;i<8;i++) {
 		
-			//Init an surface
-			var surf, spr_custom;
-			surf = surface_create(getScreenshotWidth(), getScreenshotHeight());
+			//Init an surface	
+			var surf = surface_create(ScreenshotW, ScreenshotH);
 			surface_set_target(surf);
 	
 			draw_clear_alpha(c_white,1);
 			draw_set_color(c_white);
-			draw_rectangle(0,0,getScreenshotWidth(),getScreenshotHeight(),0);
+			draw_rectangle(0,0,ScreenshotW,ScreenshotH,0);
 	
 				//Image
 				if i==0 {Element=1;sc_card_missions_basic_draw_all()};
@@ -24,7 +23,7 @@ repeat(cardMissionBasicNumberMaxPages) {
 				if i==7 {sc_card_cardback_draw_all(4);};
 	
 			//Create an sprite from surface 
-			spr_custom = sprite_create_from_surface(surf, 0, 0, getScreenshotWidth(), getScreenshotHeight(), false, false, 0, 0);
+			var spr_custom = sprite_create_from_surface(surf, 0, 0, ScreenshotW, ScreenshotH, false, false, 0, 0);
 			surface_reset_target();
 			surface_free(surf);
 	

@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_screen_save_surface",
+  "%Name":"screenshotEventPage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_screen_save_surface",
+  "name":"screenshotEventPage",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Screenshot",
+    "path":"folders/Scripts/Screenshot.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

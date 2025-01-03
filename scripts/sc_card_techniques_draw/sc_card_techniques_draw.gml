@@ -8,7 +8,7 @@ hsprite = sprite_get_height(sprite)*CardScale;
 sprite_set_offset(sprite, (wsprite/2)/CardScale, (hsprite/2)/CardScale);
 
 //Image Placement
-var i = ctn;
+var i = techniqueNumber;
 var Radius = 165*CardScale;
 var ImageScale = ((wsprite-Radius*2)/sprite_get_width(card_technique_image))*iscale;
 

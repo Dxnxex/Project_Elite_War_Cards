@@ -1,4 +1,5 @@
 if keyboard_check_pressed(vk_escape) {game_end();};
+if keyboard_check_pressed(vk_space) {sc_element_switch();};
 
 if screenshot_start==0 && !keyboard_check_direct(vk_control) {
 	
@@ -16,8 +17,8 @@ if mouse_wheel_up() && card_event_number!=card_event_numberMax {card_event_numbe
 if mouse_wheel_down() && card_event_number!=0 {card_event_number--};
 	
 
-if mouse_wheel_up() && ctn!=ctnMax {ctn++};
-if mouse_wheel_down() && ctn!=0 {ctn--};
+if mouse_wheel_up() && techniqueNumber!=ctnMax {techniqueNumber++};
+if mouse_wheel_down() && techniqueNumber!=0 {techniqueNumber--};
 
 
 }

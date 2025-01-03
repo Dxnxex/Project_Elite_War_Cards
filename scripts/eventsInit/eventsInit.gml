@@ -74,7 +74,7 @@ sc_card_events_desc2("S parťákem máte nové boží kombo!");
 //-----8-----
 sc_card_events_init(1);
 sc_card_events_name("Staré nefunguje",1);
-sc_card_events_desc1("Tohle už moc nefunguje. Možná se nevyplatilo být tak znamý.","");;
+sc_card_events_desc1("Tohle už moc nefunguje. Možná se nevyplatilo být tak znamý.","");
 sc_card_events_opt1("-1 Elementy","Dáš vybranému soupeři 160 REUNŮ","Podplatíme ho, že to nikde neřekne.",1);
 sc_card_events_opt2("-2 Elementy",string("Další koupený ")+setStringQuoteUpper(CardShop_Parent_Name[4])+string(" bude neplatný"),"Nějak to ututláme.",1);
 sc_card_events_opt3("-3 Elementy","","No a co.",1);

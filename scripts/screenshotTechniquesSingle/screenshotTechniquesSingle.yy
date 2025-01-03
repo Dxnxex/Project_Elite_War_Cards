@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"screenshotTechniquesSingle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screenshotTechniquesSingle",
+  "parent":{
+    "name":"Screenshot",
+    "path":"folders/Scripts/Screenshot.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

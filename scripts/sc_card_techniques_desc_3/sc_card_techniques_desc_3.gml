@@ -5,7 +5,7 @@ function scCardTechniquesUsage(argument0){
 
 
 //-----(INIT)-----
-cardTechniquesUsage[ctn] = "";
+cardTechniquesUsage[techniqueNumber] = "";
 
 //Technique - Usage
 var _token = "";
@@ -17,6 +17,6 @@ switch(argument0) {
 	default: _token = spriteTokenError; break;
 };
 
-cardTechniquesUsageToken[ctn]= _token;
+cardTechniquesUsageToken[techniqueNumber]= _token;
 
 }

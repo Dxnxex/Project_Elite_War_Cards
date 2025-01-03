@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scSurfaceScreenshotShop",
+  "%Name":"screenshotBasicPage",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scSurfaceScreenshotShop",
+  "name":"screenshotBasicPage",
   "parent":{
-    "name":"GM_Custom",
-    "path":"folders/Scripts/GM_Custom.yy",
+    "name":"Screenshot",
+    "path":"folders/Scripts/Screenshot.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

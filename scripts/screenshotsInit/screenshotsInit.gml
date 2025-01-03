@@ -26,12 +26,11 @@ originFormat = CardWidth/CardHeight;
 
 formatCurrent = format_A4;
 formatBetween = 1;
-
 formatBetweenH = formatBetween*getAspectHeight();
-
 
 ScreenshotW = getScreenshotWidth();
 ScreenshotH = getScreenshotHeight();
+
 
 
 

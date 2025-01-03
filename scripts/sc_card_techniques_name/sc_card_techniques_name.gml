@@ -5,31 +5,31 @@
 function sc_card_techniques_name(argument0,argument1,argument2){
 
 
-cardTechniquesName[ctn] = argument0;
-cardTechniqueImage[ctn] = spriteAddImage(argument2);
+cardTechniquesName[techniqueNumber] = argument0;
+cardTechniqueImage[techniqueNumber] = spriteAddImage(argument2);
 
-cardTechniqueOverlay[ctn] = 0;
+cardTechniqueOverlay[techniqueNumber] = 0;
 
 	
 	switch(argument0) {
 	
-		case "Vychr":			cardTechniqueOverlay[ctn]=1; break;
-		case "Tlaková koule":	cardTechniqueOverlay[ctn]=1; break;
-		case "Přemístění":		cardTechniqueOverlay[ctn]=1; break;
-		case "Ohnivá koule":	cardTechniqueOverlay[ctn]=1; break;
-		case "Golem":			cardTechniqueOverlay[ctn]=1; break;
-		case "Otřes":			cardTechniqueOverlay[ctn]=1; break;
-		case "Zpevnění":		cardTechniqueOverlay[ctn]=1; break;
+		case "Vychr":			cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Tlaková koule":	cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Přemístění":		cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Ohnivá koule":	cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Golem":			cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Otřes":			cardTechniqueOverlay[techniqueNumber]=1; break;
+		case "Zpevnění":		cardTechniqueOverlay[techniqueNumber]=1; break;
 				
 	}
 	
 	switch(argument0) {
 	
-		case "Úder":				cardTechniqueOverlay[ctn]=2; break;
-		case "Kop":					cardTechniqueOverlay[ctn]=2; break;
-		case "Pohyb":				cardTechniqueOverlay[ctn]=2; break;
-		case "Obrana":				cardTechniqueOverlay[ctn]=2; break;
-		case "Odpočinek & Risk":	cardTechniqueOverlay[ctn]=2; break;
+		case "Úder":				cardTechniqueOverlay[techniqueNumber]=2; break;
+		case "Kop":					cardTechniqueOverlay[techniqueNumber]=2; break;
+		case "Pohyb":				cardTechniqueOverlay[techniqueNumber]=2; break;
+		case "Obrana":				cardTechniqueOverlay[techniqueNumber]=2; break;
+		case "Odpočinek & Risk":	cardTechniqueOverlay[techniqueNumber]=2; break;
 
 				
 	}	
@@ -46,6 +46,6 @@ cardTechniqueOverlay[ctn] = 0;
 		default: _token = spriteTokenError; break;
 	};
 	
-	cardTechniquesLVL[ctn]= _token;
+	cardTechniquesLVL[techniqueNumber]= _token;
 		
 }

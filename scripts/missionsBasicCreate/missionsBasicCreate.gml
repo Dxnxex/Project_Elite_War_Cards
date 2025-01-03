@@ -111,7 +111,6 @@ sc_card_mission_desc("","Stavitelství",0);
 sc_card_mission_desc_1("40 REUNŮ + 1 Energie",1,3);
 sc_card_mission_desc_6("Dej všechny vyložené karty do odkládacího balíčku a rozmísti si libovolně dalších 5","");
 
-
 };
 
 

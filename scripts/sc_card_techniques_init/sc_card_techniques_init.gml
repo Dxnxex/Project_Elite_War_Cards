@@ -3,8 +3,8 @@
 function sc_card_techniques_init(argument0){
 
 
-ctn++;
-ctnMax=ctn;
+techniqueNumber++;
+ctnMax=techniqueNumber;
 
 ctnAll++;
 ctnMaxAll=ctnAll;
@@ -19,6 +19,6 @@ ctnMaxAll=ctnAll;
 	}
 	
 	//After set
-	cardTechniquesEdition[ctn] = Edition;
-	cardTechniquesInfo[ctn] = string("TCH#")+string(ctn+1+(ctnAdd));
+	cardTechniquesEdition[techniqueNumber] = Edition;
+	cardTechniquesInfo[techniqueNumber] = string("TCH#")+string(techniqueNumber+1+(ctnAdd));
 }

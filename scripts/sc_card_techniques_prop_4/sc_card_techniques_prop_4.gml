@@ -5,10 +5,10 @@
 function sc_card_techniques_prop_4(argument0,argument1) {
 
 	var P = 4;
-	CardTechniquesProp_4_Token[ctn] = spr_token_nothing;
-	CardTechniquesAtributteToken[P,ctn] = spr_token_nothing;
-	CardTechniquesAtributteText[P,ctn] = string(argument0);
-	CardTechniquesAtributteValue[P,ctn] = real(argument1);
+	CardTechniquesProp_4_Token[techniqueNumber] = spr_token_nothing;
+	CardTechniquesAtributteToken[P,techniqueNumber] = spr_token_nothing;
+	CardTechniquesAtributteText[P,techniqueNumber] = string(argument0);
+	CardTechniquesAtributteValue[P,techniqueNumber] = real(argument1);
 
 	var T; T = sc_card_technique_prop_return(argument0,P);
 	if T == 0 {var B = ""; if argument1 == 1 {B="Bod"} if argument1 >= 2		{B="Body"} if argument1 >= 5		{B="Bodů"}}
@@ -17,8 +17,8 @@ function sc_card_techniques_prop_4(argument0,argument1) {
 	if T == 3 {var B = ""; if argument1 == 1 {B="Hod"} if argument1 >= 2		{B="Hody"} if argument1 >= 5		{B="Hodů"}}
 	if T == 4 {var B = ""; if argument1 == 1 {B="Pole"} if argument1 >= 2		{B="Pole"} if argument1 >= 5		{B="Polí"}}
 
-	if (argument0!="") {CardTechniquesAtributte[P,ctn] = string(argument0)+string(": ")+string(argument1)+string(" ")+string(B);} else {
-	CardTechniquesAtributte[P,ctn] = "";
+	if (argument0!="") {CardTechniquesAtributte[P,techniqueNumber] = string(argument0)+string(": ")+string(argument1)+string(" ")+string(B);} else {
+	CardTechniquesAtributte[P,techniqueNumber] = "";
 	}
 	
 }

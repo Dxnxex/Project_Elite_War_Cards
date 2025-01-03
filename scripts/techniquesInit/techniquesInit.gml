@@ -1,6 +1,6 @@
 function techniquesInit(){
 
-ctn = -1;
+techniqueNumber = -1;
 ctnAdd = 0;
 card_technique_numberMax = 0;
 card_technique_image = spr_cardart_output_techniques;
@@ -105,7 +105,7 @@ sc_card_techniques_text_2("");
 
 
 //-----85-----
-ctnAdd=83-ctn;
+ctnAdd=83-techniqueNumber;
 sc_card_techniques_init(1);
 sc_card_techniques_name("Úder",0,85);
 scCardTechniquesType(0);

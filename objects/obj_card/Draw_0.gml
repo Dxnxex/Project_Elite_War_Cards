@@ -1,15 +1,16 @@
 //-----Screenshot-----
 if keyboard_check_pressed(ord("S")) {
 	
-	card_shop_number=0;
 	cardMissionBasicNumber=0;
 	cardMissionSecureNumber=0;
 	cardMissionSabotageNumber=0;
-	ctn=0;
+	techniqueNumber=0;
 	card_event_number=0;
 	
-screenshot_start = 2;
-screenshot_start_single = 1;
+	screenshot_start = 1;
+	screenshot_start_single = 1;
+	
+	PDF_P = 1;
 
 directory_destroy(working_directory+string("Single"));
 
@@ -18,7 +19,6 @@ directory_destroy(working_directory+string("Single"));
 //-----Screenshot ALL-----
 if keyboard_check_pressed(ord("D")) && PDFReady == 0 {
 	
-	card_shop_numberAll=0;
 	CardMissionNumberAll=0;
 	cardMissionBasicNumberAll=0;
 	cardMissionSecureNumberAll=0;
@@ -35,12 +35,6 @@ screenshot_start_ALL = 1;
 Element = 1;
 
 
-directory_destroy(working_directory+string("Page/Obchod"));
-directory_destroy(working_directory+string("Page/Mise - Základní"));
-directory_destroy(working_directory+string("Page/Mise - Ochranné"));
-directory_destroy(working_directory+string("Page/Mise - Záškodnické"));
-directory_destroy(working_directory+string("Page/Techniky"));
-directory_destroy(working_directory+string("Page/Události"));
 directory_destroy(working_directory+string("Page"));
 
 }
@@ -49,7 +43,6 @@ directory_destroy(working_directory+string("Page"));
 //-----Screenshot CUSTOM-----
 if keyboard_check_pressed(ord("F")) {
 	
-	card_shop_numberAll=0;
 	CardMissionNumberAll=0;
 	cardMissionBasicNumberAll=0;
 	cardMissionSecureNumberAll=0;
@@ -79,13 +72,8 @@ sc_screenshot_custom();
 }
 
 
-
+//While not screenshoting
 if screenshot_start==0 {
-
-
-
-
-
 
 //-----SINGLE-----
 if !keyboard_check_direct(vk_control){
@@ -122,10 +110,8 @@ draw_text(mouse_x,mouse_y+64*3,string("F - Custom"));
 	draw_line(mouse_x-2000,mouse_y,mouse_x+2000,mouse_y);
 	draw_line(mouse_x,mouse_y-2000,mouse_x,mouse_y+2000);
 	
-	//var P=389.1 ;var A=-165.4;
-	if mouse_check_button_pressed(mb_middle) {clipboard_set_text(string("sc_text_lengdir(")+string(point_distance(MainW/2,MainH/2,mouse_x,mouse_y))+string(",")+string(-360+point_direction(MainW/2,MainH/2,mouse_x,mouse_y))+string(");"));};
+	var cardW = sprite_get_width(spriteParentSize);
+	var cardH = sprite_get_height(spriteParentSize);
+	if mouse_check_button_pressed(mb_middle) {clipboard_set_text(string("setLenghtdir(")+string(point_distance(cardW/2,cardH/2,mouse_x,mouse_y))+string(",")+string(-360+point_direction(cardW/2,cardH/2,mouse_x,mouse_y))+string(");"));};
 	
-if keyboard_check_pressed(vk_space) {sc_element_switch();};
-
-
 }
