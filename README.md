@@ -11,10 +11,10 @@ Tento program je napsán v Game Makeru a slouží k snadnému exportu layoutu ka
 - **Zarovnání rubu karet**: Rubové strany karet jsou zarovnány opačně pro snadnější tisk a následné zpracování.
 - **Podpora různých barev elementů**: Každý element může mít jinou barvu, což umožňuje tisknout více variant s minimálními změnami.
 
-![A4 Formát](images/Basic.png =700x954)
-![A4 Formát](images/Secure.png =700x954)
-![A4 Formát](images/Technique.png =700x954)
-![A4 Formát](images/Event.png =700x954)
+![A4 Formát](images/Basic.png)
+![A4 Formát](images/Secure.png)
+![A4 Formát](images/Technique.png)
+![A4 Formát](images/Event.png)
 
 ![A4 Formát](images/Page.png)
 ![A4 Formát](images/CardBack.png)
