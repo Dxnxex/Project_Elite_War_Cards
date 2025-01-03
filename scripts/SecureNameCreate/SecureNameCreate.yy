@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SecureNameCreate",
+  "%Name":"secureNameCreate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SecureNameCreate",
+  "name":"secureNameCreate",
   "parent":{
     "name":"Create",
     "path":"folders/Scripts/Card/Create.yy",

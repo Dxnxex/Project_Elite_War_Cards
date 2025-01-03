@@ -2,21 +2,21 @@ function scCardMissionsSecureDraw(){
 
 //-----Sprite variables-----
 sprite = spriteSecure;
-wsprite = sprite_get_width(sprite)*_xx_scale;
-hsprite = sprite_get_height(sprite)*_xx_scale;
-sprite_set_offset(sprite, (wsprite/2)/_xx_scale, (hsprite/2)/_xx_scale);
+wsprite = sprite_get_width(sprite)*CardScale;
+hsprite = sprite_get_height(sprite)*CardScale;
+sprite_set_offset(sprite, (wsprite/2)/CardScale, (hsprite/2)/CardScale);
 
 //Image Placement
 var i = cardMissionSecureNumber;
 
 //-----Position variables-----
-var cardSpaceX = (CardWidth+formatBetween)*_xx_scale;
-var cardSpaceY = (CardHeight+formatBetweenH)*_xx_scale;
+var cardSpaceX = (CardWidth+formatBetween)*CardScale;
+var cardSpaceY = (CardHeight+formatBetweenH)*CardScale;
 		
-xx = 0;
-yy = 0;
+posX = 0;
+posY = 0;
 
 	//Draw card/s
-	SecureCardMissionDraw(i,xx,yy);
+	SecureCardMissionDraw(i,posX,posY);
 			
 };

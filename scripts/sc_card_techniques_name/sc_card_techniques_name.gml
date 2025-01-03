@@ -6,7 +6,7 @@ function sc_card_techniques_name(argument0,argument1,argument2){
 
 
 cardTechniquesName[ctn] = argument0;
-cardTechniqueImage[ctn] = scSpriteAddImage(argument2);
+cardTechniqueImage[ctn] = spriteAddImage(argument2);
 
 cardTechniqueOverlay[ctn] = 0;
 

@@ -30,8 +30,8 @@ repeat(cardMissionSabotageNumberMaxPages) {
 	
 			//Take an screenshot of surface
 			sc_cardback_PDF_pre();
-			if (i<4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_P_Add)+string(PDF_P)+string("_P."+string(ScreenshotFormat))))		;PDF_P++;sc_cardback_PDF_pre();}
-			if (i>=4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_Z_Add)+string(PDF_Z)+string("_Z."+string(ScreenshotFormat))))		;PDF_Z++;sc_cardback_PDF_pre();}
+			if (i<4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_P_Add)+string(PDF_P)+string("_P."+string("png"))))		;PDF_P++;sc_cardback_PDF_pre();}
+			if (i>=4) {sprite_save(spr_custom, 0,string(working_directory+string("Page/")+string(PDF_Z_Add)+string(PDF_Z)+string("_Z."+string("png"))))		;PDF_Z++;sc_cardback_PDF_pre();}
 
 			//Memory delete
 			sprite_delete(spr_custom);

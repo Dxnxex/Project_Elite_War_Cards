@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spriteAddImage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spriteAddImage",
+  "parent":{
+    "name":"Input",
+    "path":"folders/Scripts/Card/Input.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

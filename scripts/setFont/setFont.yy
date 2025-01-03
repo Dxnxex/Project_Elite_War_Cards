@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"setFont",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"setFont",
+  "parent":{
+    "name":"Techniques",
+    "path":"folders/Scripts/Techniques.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

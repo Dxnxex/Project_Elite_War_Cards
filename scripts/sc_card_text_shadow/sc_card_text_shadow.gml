@@ -4,10 +4,10 @@
 
 function sc_card_text_shadow(argument0){
 
-var _xx = xx+(wsprite/2)+lengthdir_x(pos,rot+angle);
-var _yy = yy+(hsprite/2)+lengthdir_y(pos,rot+angle);
-var _xscale = _xx_scale;
-var _yscale = _xx_scale;
+var _xx = posX+(wsprite/2)+lengthdir_x(pos,rot+angle);
+var _yy = posY+(hsprite/2)+lengthdir_y(pos,rot+angle);
+var _xscale = CardScale;
+var _yscale = CardScale;
 
 	draw_set_color(c_black);
 	draw_set_alpha(0.8);

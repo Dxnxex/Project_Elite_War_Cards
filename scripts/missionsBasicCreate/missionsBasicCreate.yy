@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"missionsBasicCreate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"missionsBasicCreate",
+  "parent":{
+    "name":"Create",
+    "path":"folders/Scripts/Mission/Create.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

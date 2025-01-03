@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"fontInit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"fontInit",
+  "parent":{
+    "name":"Fonts",
+    "path":"folders/Scripts/Fonts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

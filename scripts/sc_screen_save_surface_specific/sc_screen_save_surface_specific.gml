@@ -21,8 +21,8 @@ function sc_screen_save_surface_specific(){
 		surface_reset_target();
 		surface_free(surf);
 	
-	if screenshot_start == 1 {sprite_save(spr_custom, 0,string(working_directory+string("Custom/")+string("Front."+string(ScreenshotFormat))))};
-	if screenshot_start == 2 {sprite_save(spr_custom, 0,string(working_directory+string("Custom/")+string("Back."+string(ScreenshotFormat))))};
+	if screenshot_start == 1 {sprite_save(spr_custom, 0,string(working_directory+string("Custom/")+string("Front."+string("png"))))};
+	if screenshot_start == 2 {sprite_save(spr_custom, 0,string(working_directory+string("Custom/")+string("Back."+string("png"))))};
 	
 	sprite_delete(spr_custom);
 	

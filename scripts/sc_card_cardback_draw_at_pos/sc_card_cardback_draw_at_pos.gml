@@ -38,15 +38,15 @@ if _cardback_type == "Event"			&& cardbackShowEvent[_positionNumber+card_event_n
 		sprite_set_offset(sprite, wsprite/2, hsprite/2);
 
 		//Position variables
-		var cardSpaceX = (CardWidth+formatBetween)*_xx_scale;
-		var cardSpaceY = (CardHeight+formatBetweenH)*_xx_scale;
+		var cardSpaceX = (CardWidth+formatBetween)*CardScale;
+		var cardSpaceY = (CardHeight+formatBetweenH)*CardScale;
 
 
-		xx = ScreenshotW- (	cardSpaceX*argument1)	+(((CardWidth*_xx_scale)-wsprite)/2);
-		yy = (				cardSpaceY*argument0-hsprite)-		(((CardHeight*_xx_scale)-hsprite)/2);
+		posX = ScreenshotW- (	cardSpaceX*argument1)	+(((CardWidth*CardScale)-wsprite)/2);
+		posY = (				cardSpaceY*argument0-hsprite)-		(((CardHeight*CardScale)-hsprite)/2);
 
 		//------CARD Layout-----
-		draw_sprite_ext(sprite,0,xx+(wsprite/2)+lengthdir_x(0,0),yy+(hsprite/2)+lengthdir_y(0,0),_xx_scale,_xx_scale,rot,c_white,1);
+		draw_sprite_ext(sprite,0,posX+(wsprite/2)+lengthdir_x(0,0),posY+(hsprite/2)+lengthdir_y(0,0),CardScale,CardScale,rot,c_white,1);
 	
 
 		};

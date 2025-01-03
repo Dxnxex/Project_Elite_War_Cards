@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"SabotageNameCreate",
+  "%Name":"sabotageNameCreate",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SabotageNameCreate",
+  "name":"sabotageNameCreate",
   "parent":{
     "name":"Create",
     "path":"folders/Scripts/Card/Create.yy",

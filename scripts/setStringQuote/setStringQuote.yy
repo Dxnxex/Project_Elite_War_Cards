@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"setStringQuote",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"setStringQuote",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

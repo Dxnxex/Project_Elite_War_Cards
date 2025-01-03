@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"screenshotsInit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"screenshotsInit",
+  "parent":{
+    "name":"Inits",
+    "path":"folders/Scripts/Inits.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

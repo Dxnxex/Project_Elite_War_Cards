@@ -24,7 +24,6 @@ if mouse_wheel_down() && ctn!=0 {ctn--};
 
 if screenshot_start==0 && keyboard_check_direct(vk_control) {
 	
-if keyboard_check_pressed(ord("Q")) {_cardback_list=0;card_shop_numberAll=0};
 if keyboard_check_pressed(ord("W")) {_cardback_list=0;cardMissionBasicNumberAll=0};
 if keyboard_check_pressed(ord("E")) {_cardback_list=0;cardMissionSecureNumberAll=0};
 if keyboard_check_pressed(ord("R")) {_cardback_list=0;cardMissionSabotageNumberAll=0};
